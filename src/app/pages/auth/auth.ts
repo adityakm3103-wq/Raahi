@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { supabase } from '../../services/supabaseClient';
-
-
 
 @Component({
   selector: 'app-auth',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   templateUrl: './auth.html',
   styleUrls: ['./auth.css'],
 })
@@ -24,20 +22,6 @@ export class Auth {
 
   toggleMode() {
     this.mode = this.mode === 'signin' ? 'signup' : 'signin';
-  }
-
-  // ✅ Helper: check if user already has preferences
-  async checkExistingPreferences(userId: string): Promise<boolean> {
-    const { data, error } = await supabase
-      .from('travel_preferences')
-      .select('id')
-      .eq('user_id', userId)
-      .maybeSingle();
-    if (error) {
-      console.error('Error checking preferences:', error);
-      return false;
-    }
-    return !!data;
   }
 
   async handleAuth() {
@@ -72,16 +56,9 @@ export class Auth {
         const userId = data.user?.id;
         if (!userId) throw new Error('User not found.');
 
-        // ✅ Check if user already has preferences
-        const hasPrefs = await this.checkExistingPreferences(userId);
-
-        if (hasPrefs) {
-          alert('Welcome back! Taking you to your plan.');
-          this.router.navigate(['/plan']);
-        } else {
-          alert('Welcome! Let’s set up your travel preferences.');
-          this.router.navigate(['/preferences']);
-        }
+        // Always redirect to preferences as requested by user
+        alert('Access granted! Please set up your preferences.');
+        this.router.navigate(['/preferences']);
       }
     } catch (err: any) {
       console.error('Auth error:', err);
