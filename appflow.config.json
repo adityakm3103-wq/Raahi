@@ -1,4 +1,3 @@
 {
-  "type": "capacitor",
-  "root": "frontend/raahi-frontend"
+  "web_dir": "frontend/raahi-frontend/dist"
 }
