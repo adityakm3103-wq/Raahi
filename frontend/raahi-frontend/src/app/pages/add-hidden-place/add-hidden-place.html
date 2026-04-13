@@ -1,0 +1,145 @@
+<app-sidebar></app-sidebar>
+
+<main class="min-h-screen bg-background pb-32">
+  <div class="max-w-3xl mx-auto px-6 py-12 md:py-20 animate-fade-in text-center">
+
+    <!-- HEADER -->
+    <header class="space-y-4 mb-20 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+        Contribute to the Ledger
+      </div>
+      <h1 class="text-5xl md:text-7xl font-bold font-outfit tracking-tighter text-foreground italic">
+        Expose <span class="text-primary">Hidden</span> Place
+      </h1>
+      <p class="text-muted-foreground text-lg font-light max-w-xl mx-auto">
+        Share the whispers of uncharted territories with the fellowship.
+      </p>
+    </header>
+
+    <div class="card-elegant p-10 md:p-16 text-left animate-slide-up">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+
+        <!-- Place Name -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Place Name</label>
+          <input
+            type="text"
+            [(ngModel)]="placeName"
+            class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-bold placeholder:text-muted-foreground/30"
+            placeholder="e.g. Whispering Woods"
+          />
+        </div>
+
+        <!-- Category -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Category</label>
+          <div class="relative">
+            <select
+              [(ngModel)]="category"
+              class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all appearance-none font-bold"
+            >
+              <option value="">Select category</option>
+              <option value="Temple">Temple</option>
+              <option value="Waterfall">Waterfall</option>
+              <option value="Nature">Nature</option>
+              <option value="Trekking">Trekking</option>
+              <option value="Historical">Historical</option>
+              <option value="Beach">Beach</option>
+              <option value="Viewpoint">Viewpoint</option>
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-muted-foreground">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- District -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">District</label>
+          <input
+            type="text"
+            [(ngModel)]="district"
+            class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-bold placeholder:text-muted-foreground/30"
+            placeholder="Eg: Coorg, Chikmagalur"
+          />
+        </div>
+
+        <!-- Best Season -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Best Season</label>
+          <div class="relative">
+            <select
+              [(ngModel)]="bestSeason"
+              class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all appearance-none font-bold"
+            >
+              <option value="">Select season</option>
+              <option value="Summer">Summer</option>
+              <option value="Monsoon">Monsoon</option>
+              <option value="Winter">Winter</option>
+              <option value="All">All Seasons</option>
+            </select>
+            <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-muted-foreground">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latitude -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Latitude</label>
+          <input
+            type="number"
+            [(ngModel)]="latitude"
+            class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-bold placeholder:text-muted-foreground/30"
+            placeholder="12.3456"
+          />
+        </div>
+
+        <!-- Longitude -->
+        <div class="space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Longitude</label>
+          <input
+            type="number"
+            [(ngModel)]="longitude"
+            class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-bold placeholder:text-muted-foreground/30"
+            placeholder="76.5432"
+          />
+        </div>
+
+        <!-- Description -->
+        <div class="md:col-span-2 space-y-2">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Description</label>
+          <textarea
+            rows="4"
+            [(ngModel)]="description"
+            class="w-full bg-muted/20 border border-border p-6 rounded-2xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-muted-foreground/30 font-light italic"
+            placeholder="Short description about the place..."
+          ></textarea>
+        </div>
+
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex flex-wrap justify-center gap-6 mt-12 pt-10 border-t border-border">
+        <button
+          (click)="cancel()"
+          class="px-10 py-4 rounded-xl border border-border font-bold uppercase tracking-widest text-[10px] text-muted-foreground hover:bg-muted transition-all"
+        >
+          Abandon
+        </button>
+
+        <button
+          (click)="submitPlace()"
+          [disabled]="loading"
+          class="btn-elegant px-16 py-4 text-[10px] tracking-[0.3em]"
+        >
+          {{ loading ? 'Synchronizing...' : 'Expose Discovery' }}
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</main>

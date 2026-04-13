@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+.android/
+.ionic/
+.env
+.DS_Store
+Thumbs.db

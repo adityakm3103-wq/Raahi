@@ -1,0 +1,53 @@
+<!-- Floating Mac-style Dock Navigation -->
+<nav class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 p-2 rounded-3xl bg-surface/70 backdrop-blur-2xl border border-white/20 shadow-2xl transition-all duration-500 hover:py-3 group/dock">
+  
+  <!-- Home / Logo -->
+  <button routerLink="/" routerLinkActive="bg-primary/20 text-primary" [routerLinkActiveOptions]="{exact: true}" 
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 relative group">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Home</span>
+  </button>
+
+  <div class="w-px h-8 bg-border/50 mx-1"></div>
+
+  <!-- Discover -->
+  <button routerLink="/discover" routerLinkActive="bg-primary/20 text-primary"
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 relative group">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Explore</span>
+  </button>
+
+  <!-- Plan -->
+  <button routerLink="/plan" routerLinkActive="bg-primary/20 text-primary"
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 relative group">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Planner</span>
+  </button>
+
+  <!-- Saved -->
+  <button routerLink="/saved-trips" routerLinkActive="bg-primary/20 text-primary"
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 relative group">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">My Trips</span>
+  </button>
+
+  <!-- Profile -->
+  <button routerLink="/profile" routerLinkActive="bg-primary/20 text-primary"
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 relative group">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Profile</span>
+  </button>
+
+  <div class="w-px h-8 bg-border/50 mx-1"></div>
+
+  <!-- Theme Toggle -->
+  <button (click)="toggleTheme()" 
+    class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-secondary text-secondary-foreground hover:bg-primary hover:text-white transition-all duration-300 relative group">
+    <svg *ngIf="!themeService.isDarkMode()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    <svg *ngIf="themeService.isDarkMode()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+    <span class="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Toggle Mode</span>
+  </button>
+
+</nav>
+
+

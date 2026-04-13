@@ -1,0 +1,442 @@
+{
+  "circuits": {
+    "Mullayanagiri_BabaBudangiri_Circuit": {
+      "places": [
+        "Mullayanagiri Peak",
+        "Seethalayyanagiri",
+        "Honnammanahalla Viewpoint",
+        "Baba Budangiri (Datta Peeta)",
+        "Manikyadhara Falls",
+        "Z Point Viewpoint (near Kemmangundi zone but combinable)",
+        "Giri Hills Viewpoint",
+        "Kavikal Gandi Viewpoint"
+      ],
+      "places_detailed": [
+        {
+          "name": "Mullayanagiri Peak",
+          "lat": 13.3829,
+          "lng": 75.7550,
+          "durationMinutes": 240,
+          "category": "Trek / Peak"
+        },
+        {
+          "name": "Seethalayyanagiri",
+          "lat": 13.3725,
+          "lng": 75.7465,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Honnammanahalla Viewpoint",
+          "lat": 13.3655,
+          "lng": 75.7440,
+          "durationMinutes": 30,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Baba Budangiri (Datta Peeta)",
+          "lat": 13.3949,
+          "lng": 75.8081,
+          "durationMinutes": 90,
+          "category": "Hill Shrine"
+        },
+        {
+          "name": "Manikyadhara Falls",
+          "lat": 13.3938,
+          "lng": 75.8093,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Z Point Viewpoint (near Kemmangundi zone but combinable)",
+          "lat": 13.5515,
+          "lng": 75.8002,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Giri Hills Viewpoint",
+          "lat": 13.37,
+          "lng": 75.79,
+          "durationMinutes": 60,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Kavikal Gandi Viewpoint",
+          "lat": 13.34,
+          "lng": 75.77,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        }
+      ]
+    },
+
+    "Kemmangundi_Hills_Circuit": {
+      "places": [
+        "Kemmangundi Hill Station",
+        "Z Point Viewpoint",
+        "Shanti Falls",
+        "Hebbe Falls",
+        "Kalhatti Falls",
+        "Ballarayanadurga Fort Trek (nearby via forest routes)"
+      ],
+      "places_detailed": [
+        {
+          "name": "Kemmangundi Hill Station",
+          "lat": 13.5410,
+          "lng": 75.7772,
+          "durationMinutes": 180,
+          "category": "Hill Station"
+        },
+        {
+          "name": "Z Point Viewpoint",
+          "lat": 13.5515,
+          "lng": 75.8002,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Shanti Falls",
+          "lat": 13.5490,
+          "lng": 75.7895,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Hebbe Falls",
+          "lat": 13.5298,
+          "lng": 75.7495,
+          "durationMinutes": 120,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Kalhatti Falls",
+          "lat": 13.5489,
+          "lng": 75.7382,
+          "durationMinutes": 60,
+          "category": "Waterfall / Temple"
+        },
+        {
+          "name": "Ballarayanadurga Fort Trek (nearby via forest routes)",
+          "lat": 13.151,
+          "lng": 75.396,
+          "durationMinutes": 300,
+          "category": "Fort Trek"
+        }
+      ]
+    },
+    "Sringeri_Kudremukh_Circuit": {
+      "places": [
+        "Sringeri Sharada Peetham",
+        "Kigga Rishyasringa Temple",
+        "Sirimane Falls",
+        "Kudremukh National Park",
+        "Gangamoola Trek",
+        "Kadambi Falls",
+        "Hanuman Gundi Falls",
+        "Kundadri Hill"
+      ],
+      "places_detailed": [
+        {
+          "name": "Sringeri Sharada Peetham",
+          "lat": 13.4162,
+          "lng": 75.2517,
+          "durationMinutes": 90,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Kigga Rishyasringa Temple",
+          "lat": 13.4458,
+          "lng": 75.2531,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Sirimane Falls",
+          "lat": 13.4541,
+          "lng": 75.2847,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Kudremukh National Park",
+          "lat": 13.2020,
+          "lng": 75.2550,
+          "durationMinutes": 240,
+          "category": "National Park"
+        },
+        {
+          "name": "Gangamoola Trek",
+          "lat": 13.1445,
+          "lng": 75.2641,
+          "durationMinutes": 300,
+          "category": "Trek"
+        },
+        {
+          "name": "Kadambi Falls",
+          "lat": 13.2325,
+          "lng": 75.2503,
+          "durationMinutes": 30,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Hanuman Gundi Falls",
+          "lat": 13.1686,
+          "lng": 75.2404,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Kundadri Hill",
+          "lat": 13.5082,
+          "lng": 75.2266,
+          "durationMinutes": 60,
+          "category": "Hill / Viewpoint"
+        }
+      ]
+    },
+
+    "Mudigere_Aldur_Avathi_Circuit": {
+      "places": [
+        "Ettina Bhuja Trek",
+        "Devaramane Grasslands",
+        "Pandavar Gudda",
+        "Ayyanakere Lake",
+        "Kelagur Tea Estate",
+        "Mudigere Coffee Estate Trails",
+        "Aldur Estate Region",
+        "Hirekolale Lake"
+      ],
+      "places_detailed": [
+        {
+          "name": "Ettina Bhuja Trek",
+          "lat": 13.1588,
+          "lng": 75.5679,
+          "durationMinutes": 300,
+          "category": "Trek"
+        },
+        {
+          "name": "Devaramane Grasslands",
+          "lat": 13.2001,
+          "lng": 75.5005,
+          "durationMinutes": 120,
+          "category": "Grasslands / Scenic"
+        },
+        {
+          "name": "Pandavar Gudda",
+          "lat": 13.2146,
+          "lng": 75.5272,
+          "durationMinutes": 60,
+          "category": "Viewpoint / Hill"
+        },
+        {
+          "name": "Ayyanakere Lake",
+          "lat": 13.3965,
+          "lng": 75.6717,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Kelagur Tea Estate",
+          "lat": 13.2222,
+          "lng": 75.5050,
+          "durationMinutes": 90,
+          "category": "Tea Estate"
+        },
+        {
+          "name": "Mudigere Coffee Estate Trails",
+          "lat": 13.1410,
+          "lng": 75.6348,
+          "durationMinutes": 120,
+          "category": "Estate Trails"
+        },
+        {
+          "name": "Aldur Estate Region",
+          "lat": 13.2822,
+          "lng": 75.7061,
+          "durationMinutes": 90,
+          "category": "Estate Region"
+        },
+        {
+          "name": "Hirekolale Lake",
+          "lat": 13.3864,
+          "lng": 75.7230,
+          "durationMinutes": 60,
+          "category": "Lake / Viewpoint"
+        }
+      ]
+    },
+
+    "Belur_Halebidu_Heritage_Circuit": {
+      "places": [
+        "Belur Chennakeshava Temple",
+        "Halebidu Hoysaleswara Temple",
+        "Marle Chennakeshava Temple",
+        "Amruteshwara Temple – Amruthapura",
+        "Hiremagalur Kodandarama Temple",
+        "Belavadi Veeranarayana Temple",
+        "Kadur Jain Basadi Temples"
+      ],
+      "places_detailed": [
+        {
+          "name": "Belur Chennakeshava Temple",
+          "lat": 13.1625,
+          "lng": 75.8676,
+          "durationMinutes": 120,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Halebidu Hoysaleswara Temple",
+          "lat": 13.2164,
+          "lng": 75.9928,
+          "durationMinutes": 120,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Marle Chennakeshava Temple",
+          "lat": 13.2207,
+          "lng": 75.9183,
+          "durationMinutes": 60,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Amruteshwara Temple – Amruthapura",
+          "lat": 13.7031,
+          "lng": 75.5797,
+          "durationMinutes": 60,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Hiremagalur Kodandarama Temple",
+          "lat": 13.3204,
+          "lng": 75.7909,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Belavadi Veeranarayana Temple",
+          "lat": 13.2946,
+          "lng": 75.9820,
+          "durationMinutes": 90,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Kadur Jain Basadi Temples",
+          "lat": 13.5551,
+          "lng": 76.0073,
+          "durationMinutes": 45,
+          "category": "Jain Temple"
+        }
+      ]
+    },
+    "Wildlife_Adventure_Circuit": {
+      "places": [
+        "Bhadra Wildlife Sanctuary",
+        "Bhadra Tiger Reserve Safari – Lakkavalli",
+        "Muthodi Forest Reserve",
+        "Kyatanmakki Jeep Trail",
+        "Nethravathi Peak Trek",
+        "Mullodi Hills (Kudremukh Base Camp)"
+      ],
+      "places_detailed": [
+        {
+          "name": "Bhadra Wildlife Sanctuary",
+          "lat": 13.6131,
+          "lng": 75.6780,
+          "durationMinutes": 240,
+          "category": "Wildlife Sanctuary"
+        },
+        {
+          "name": "Bhadra Tiger Reserve Safari – Lakkavalli",
+          "lat": 13.6916,
+          "lng": 75.6469,
+          "durationMinutes": 240,
+          "category": "Tiger Reserve Safari"
+        },
+        {
+          "name": "Muthodi Forest Reserve",
+          "lat": 13.3168,
+          "lng": 75.7449,
+          "durationMinutes": 180,
+          "category": "Forest Reserve"
+        },
+        {
+          "name": "Kyatanmakki Jeep Trail",
+          "lat": 13.2776,
+          "lng": 75.5754,
+          "durationMinutes": 120,
+          "category": "Jeep Trail / Offroad"
+        },
+        {
+          "name": "Nethravathi Peak Trek",
+          "lat": 13.2012,
+          "lng": 75.2824,
+          "durationMinutes": 360,
+          "category": "Trek"
+        },
+        {
+          "name": "Mullodi Hills (Kudremukh Base Camp)",
+          "lat": 13.1781,
+          "lng": 75.2589,
+          "durationMinutes": 120,
+          "category": "Base Camp / Trek Start"
+        }
+      ]
+    },
+
+    "Hidden_Offbeat_Places": {
+      "places": [
+        "Ballavara Betta",
+        "Alekan Falls",
+        "Bandekallu Falls",
+        "Kallathigiri Temple (under waterfall)",
+        "Devaramane Offbeat Trails",
+        "Sunset Point near Siri Statue"
+      ],
+      "places_detailed": [
+        {
+          "name": "Ballavara Betta",
+          "lat": 13.1935,
+          "lng": 75.4630,
+          "durationMinutes": 90,
+          "category": "Offbeat Hill"
+        },
+        {
+          "name": "Alekan Falls",
+          "lat": 13.1984,
+          "lng": 75.3551,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Bandekallu Falls",
+          "lat": 13.193,
+          "lng": 75.401,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Kallathigiri Temple (under waterfall)",
+          "lat": 13.5489,
+          "lng": 75.7382,
+          "durationMinutes": 45,
+          "category": "Temple / Waterfall"
+        },
+        {
+          "name": "Devaramane Offbeat Trails",
+          "lat": 13.2001,
+          "lng": 75.5005,
+          "durationMinutes": 120,
+          "category": "Offbeat Trails"
+        },
+        {
+          "name": "Sunset Point near Siri Statue",
+          "lat": 13.4062,
+          "lng": 75.7467,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        }
+      ]
+    }
+  }
+}

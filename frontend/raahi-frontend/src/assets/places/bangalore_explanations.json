@@ -1,0 +1,165 @@
+{
+  "Bangalore_City_Circuit": {
+    "Lalbagh Botanical Garden": { "reason": "A historic 240-acre botanical garden with rare plants and serene lake views." },
+    "Cubbon Park": { "reason": "A peaceful green escape in the heart of the city, ideal for walks and nature lovers." },
+    "Vidhana Soudha": { "reason": "An iconic landmark of Bengaluru known for its majestic Neo-Dravidian architecture." },
+    "Bangalore Palace": { "reason": "A royal Tudor-style palace reflecting Bengaluru’s rich heritage and culture." },
+    "Tipu Sultan’s Summer Palace": { "reason": "A historic teakwood palace showcasing the legacy of Tipu Sultan." },
+    "UB City": { "reason": "A luxury mall with upscale dining, shopping, and city nightlife vibes." },
+    "MG Road": { "reason": "A lively high street filled with shops, cafés, nightlife, and city culture." },
+    "Brigade Road": { "reason": "One of Bengaluru’s most vibrant shopping and hangout streets." },
+    "Commercial Street": { "reason": "The best budget shopping street for clothes, jewelry, and accessories." },
+    "Church Street": { "reason": "A hip cultural hotspot for cafés, bookstores, murals, and nightlife." },
+    "Indiranagar 100 Feet Road": { "reason": "Known for premium dining, pubs, and boutique cafés." },
+    "Orion Mall": { "reason": "A lakeside mall with premium stores, food court, and entertainment." },
+    "Phoenix Marketcity": { "reason": "Bengaluru’s largest mall with concerts, shopping, food, and events." },
+    "ISKCON Temple Rajajinagar": { "reason": "A peaceful spiritual landmark with grand architecture and devotion." },
+    "Bull Temple": { "reason": "Famous ancient temple housing a massive monolithic Nandi statue." },
+    "Dodda Ganapathi Temple": { "reason": "A revered temple known for its huge Ganapati idol." },
+    "St. Mary’s Basilica": { "reason": "One of Bengaluru’s oldest churches known for Gothic-style architecture." },
+    "St. Mark’s Cathedral": { "reason": "A heritage church with colonial architecture and serene ambiance." },
+    "HAL Heritage Centre & Aerospace Museum": { "reason": "Insight into Indian aviation featuring aircraft models and engines." },
+    "Jawaharlal Nehru Planetarium": { "reason": "Perfect for astronomy lovers with immersive sky theatre shows." },
+    "Visvesvaraya Industrial & Technological Museum": { "reason": "Interactive science museum with engaging exhibits for all ages." },
+    "National Gallery of Modern Art (NGMA)": { "reason": "Showcases contemporary and classic Indian art in a heritage mansion." },
+    "Bannerghatta Biological Park": { "reason": "Popular for its safari, zoo, butterfly park, and wildlife experiences." },
+    "Sankey Tank": { "reason": "A peaceful lake ideal for evening walks and boating." },
+    "Ulsoor Lake": { "reason": "Large scenic lake with islands, boating, and photo spots." },
+    "Freedom Park": { "reason": "A historic prison-turned-park symbolizing Bangalore’s civic history." },
+    "Government Museum": { "reason": "One of India’s oldest museums showcasing archaeology and history." },
+    "Venkatappa Art Gallery": { "reason": "Features the works of renowned artist Venkatappa and others." },
+    "Kanteerava Stadium": { "reason": "Major sports stadium hosting athletic and football events." },
+    "Nandi Temple Park Area": { "reason": "A peaceful green zone around the historic Nandi temple." },
+    "Innovative Film City": { "reason": "Entertainment theme park featuring film sets, museums, and activities." }
+  },
+
+  "City_Lakes_Gardens_Circuit": {
+    "JP Park": { "reason": "A clean, well-designed city park with lakes and walking paths." },
+    "Madiwala Lake": { "reason": "Known for migratory birds and peaceful walks." },
+    "Hebbal Lake": { "reason": "A scenic lake ideal for photography and bird watching." },
+    "Kaikondrahalli Lake": { "reason": "A well-maintained lake surrounded by greenery and walkers." },
+    "Agara Lake": { "reason": "Beautiful urban lake with a peaceful walking trail." },
+    "Nagawara Lake": { "reason": "Famous for Lumbini Gardens and evening boating." },
+    "Begur Lake": { "reason": "Quiet lakeside area with nature and birdlife." },
+    "Yelahanka Lake": { "reason": "A popular jogging and cycling track around a big lake." },
+    "Puttenahalli Lake": { "reason": "A biodiversity-rich lake with many resident birds." },
+    "Hesaraghatta Lake": { "reason": "A serene rural-style lake perfect for photography." },
+    "Thottikallu Falls (TK Falls)": { "reason": "A quick-access waterfall known for monsoon beauty." },
+    "Pearl Valley (Muthyala Maduvu)": { "reason": "A peaceful valley with streams, greenery, and rocks." },
+    "Manchanabele Dam": { "reason": "A beautiful water reservoir ideal for sunsets and relaxation." },
+    "Hesaraghatta Grasslands": { "reason": "Open grasslands ideal for sunrise photos and nature walks." },
+    "Tippagondanahalli Reservoir": { "reason": "A quiet water reservoir with scenic landscapes." },
+    "Turahalli Forest Viewpoint": { "reason": "A popular viewpoint for sunrise, cycling, and nature lovers." },
+    "Big Banyan Tree — Dodda Alada Mara": { "reason": "An enormous, 400-year-old banyan tree spread across acres." },
+    "Bannerghatta Butterfly Park": { "reason": "Home to hundreds of butterfly species in a controlled habitat." }
+  },
+
+  "Temples_Monasteries_Circuit": {
+    "ISKCON Rajajinagar": { "reason": "A peaceful spiritual destination with grand Krishna temple architecture." },
+    "Bull Temple": { "reason": "Home to one of the largest Nandi statues in the world." },
+    "Gavi Gangadhareshwara Temple": { "reason": "Ancient rock-cut cave temple known for sunlight phenomenon." },
+    "Banashankari Amma Temple": { "reason": "A highly revered temple dedicated to Goddess Banashankari." },
+    "Ragigudda Anjaneya Temple": { "reason": "Spiritual hilltop temple devoted to Lord Hanuman." },
+    "Shivoham Shiva Temple": { "reason": "Popular Shiva temple featuring a 65-foot tall statue." },
+    "Kadu Malleshwara Temple": { "reason": "Historic temple in Malleshwaram dating back centuries." },
+    "Chokkanathaswamy Temple — Domlur": { "reason": "One of the oldest temples in Bangalore from the Chola era." },
+    "Art of Living International Center": { "reason": "A global spiritual center surrounded by scenic hills." },
+    "Pyramid Valley International": { "reason": "Meditation center known for its massive energy pyramid." },
+    "Infant Jesus Church—Viveknagar": { "reason": "Famous church visited by thousands for blessings." },
+    "St. Francis Xavier’s Cathedral": { "reason": "A beautiful cathedral with neo-Roman architecture." },
+    "Sri Prasanna Veeranjaneya Swamy Temple": { "reason": "A devotional temple known for its vibrant festivals." },
+    "Ranganathaswamy Temple—Balepet": { "reason": "Historic Vishnu temple known for architecture and rituals." },
+    "Sri Sai Baba Ashram—Whitefield": { "reason": "Peaceful spiritual ashram dedicated to Sai Baba." }
+  },
+
+  "Heritage_Architecture_Circuit": {
+    "Bangalore Fort": { "reason": "A historic fort built by Kempegowda and later held by Tipu Sultan." },
+    "Tipu Sultan’s Fort (KR Market)": { "reason": "Historic fort area showing Tipu’s legacy and old architecture." },
+    "Mayo Hall": { "reason": "A beautiful colonial-era government building." },
+    "Attara Kacheri (High Court)": { "reason": "A striking red heritage building near Cubbon Park." },
+    "Seshadri Iyer Memorial Hall": { "reason": "Iconic red building housing the State Library." },
+    "KR Market Flower Market": { "reason": "Colorful wholesale flower market active from early morning." },
+    "Dharmaraya Swamy Temple": { "reason": "Ancient temple famous for Karaga festival." },
+    "Vidhana Soudha Night View": { "reason": "Mesmerizing illuminated view of Bengaluru’s legislative building." }
+  },
+
+  "Nandi_Hills_Cluster": {
+    "Nandi Hills Sunrise Point": { "reason": "The best sunrise spot near Bangalore with breathtaking views." },
+    "Tipu’s Drop": { "reason": "Historic cliff viewpoint with panoramic scenery." },
+    "Tipu’s Residence": { "reason": "Old residence of Tipu Sultan located on the hilltop." },
+    "Brahmashram Cave": { "reason": "A quiet meditation cave near Nandi Hills." },
+    "Skandagiri Sunrise Trek": { "reason": "Famous for night trekking and stunning sunrise views." },
+    "Channagiri Hills": { "reason": "A moderate trek offering panoramic hill views." },
+    "Bhoga Nandeeshwara Temple": { "reason": "Ancient temple with stunning Dravidian architecture." },
+    "Muddenahalli Memorial": { "reason": "Birthplace memorial of Sir M. Visvesvaraya." },
+    "Grover Zampa Vineyards": { "reason": "A scenic vineyard offering wine tours and tasting sessions." }
+  },
+
+  "Kanakapura_Ramanagara_Circuit": {
+    "Mekedatu & Sangama": { "reason": "Beautiful confluence point of rivers Arkavati and Cauvery." },
+    "Chunchi Falls": { "reason": "A scenic waterfall perfect during monsoons." },
+    "Bheemeshwari Nature Camp": { "reason": "Wildlife sanctuary ideal for adventure and river activities." },
+    "Muthathi Forest": { "reason": "A lush green forest ideal for road trips and nature walks." },
+    "Pyramid Valley": { "reason": "A spiritual meditation destination with a giant pyramid." },
+    "Shilhaandara Adventure Park": { "reason": "Adventure resort built around a massive rock formation." },
+    "Ramadevara Betta (Sholay Hills)": { "reason": "A famous hill where *Sholay* movie was shot." },
+    "Kabbaladurga Trek": { "reason": "Night trek hotspot with thrilling trails." },
+    "Kanva Reservoir": { "reason": "A peaceful reservoir perfect for sunsets." },
+    "Manchanabele Dam": { "reason": "Scenic water body ideal for relaxation and photography." },
+    "Ravugodlu Hill": { "reason": "Less crowded trekking + scenic viewpoint." }
+  },
+
+  "Tumkur_Magadi_Circuit": {
+    "Shivagange Hill": { "reason": "A sacred hill trek known as the 'Dakshina Kashi'." },
+    "Devarayanadurga": { "reason": "Hill temple surrounded by forested slopes." },
+    "Namada Chilume": { "reason": "A natural spring believed to be associated with Lord Rama." },
+    "Siddara Betta": { "reason": "Historic hill with caves and medicinal herbs." },
+    "Mandaragiri Jain Temple": { "reason": "Beautiful Jain temple with a peacock-shaped dome." },
+    "Hulukadi Betta": { "reason": "Offbeat trekking hill offering peaceful views." }
+  },
+
+  "Channapatna_Anekal_Circuit": {
+    "Ravugodlu Lake": { "reason": "Quiet lakeside destination for sunrise walks." },
+    "Bannerghatta Trek Trails": { "reason": "Forest trekking trails near Bannerghatta Wildlife Park." },
+    "Pearl Valley (Muthyala Maduvu)": { "reason": "Serene valley known for pearl-like water droplets." },
+    "Anekal Lake": { "reason": "Calm lake surrounded by greenery." },
+    "Thattekere Lake": { "reason": "Scenic lake famous for bird watching and cycling." },
+    "Bettamugilalam Forest Drive": { "reason": "Dense small forest ideal for offbeat drives." }
+  },
+
+  "Adventure_Fun_Parks": {
+    "Wonderla": { "reason": "Top amusement park with thrilling rides and water activities." },
+    "Innovative Film City": { "reason": "Film-themed amusement park with museums and activities." },
+    "Snow City": { "reason": "Indoor snow park perfect for family fun." },
+    "XtremeZone Adventure Park": { "reason": "Adventure activities like ziplining and rock climbing." },
+    "Jain Farms": { "reason": "Village-themed recreational getaway near Bangalore." },
+    "Grover Vineyard Tours": { "reason": "Wine tasting and vineyard walks with scenic views." },
+    "Eco Adventure Camp Kanakapura": { "reason": "Lake-side adventure camp with kayaking and trekking." },
+    "Skandagiri Sunrise Trek": { "reason": "Popular for night trekking and sunrise views." },
+    "Microlight Flying — Jakkur": { "reason": "Thrilling microlight flight experience over Bangalore." }
+  },
+
+  "Weekend_Getaways_Circuit": {
+    "Lepakshi": { "reason": "A heritage village famous for its hanging pillar temple." },
+    "Avalabetta Hilltop": { "reason": "Hilltop viewpoint known for scenic valley views." },
+    "Chikballapur Hills": { "reason": "Beautiful hill region perfect for road trips." },
+    "Horsley Hills": { "reason": "Cool hill station ideal for weekend retreats." },
+    "Anthargange Caves": { "reason": "Unique cave exploration and trekking spot." },
+    "Kotilingeshwara Temple": { "reason": "Temple complex known for thousands of Shiva lingas." },
+    "Markonahalli Dam": { "reason": "Quiet water reservoir with peaceful surroundings." },
+    "Hogenakkal Falls": { "reason": "Majestic waterfalls known as the 'Niagara of India'." },
+    "Madhugiri Fort Trek": { "reason": "Exciting trek to Asia’s second-largest monolithic rock." },
+    "Gudibande Fort": { "reason": "Easy scenic trek with a stunning fort structure." },
+    "Avalahalli Forest Trail": { "reason": "Forest trail ideal for cycling and nature walks." }
+  },
+
+  "Hidden_Offbeat_Places": {
+    "Turahalli Forest Sunrise Point": { "reason": "Peaceful sunrise viewpoint popular for cyclists." },
+    "Hesaraghatta Grasslands": { "reason": "Vast open grasslands ideal for photography and nature lovers." },
+    "Chikka Tirupati Temple": { "reason": "A small but sacred temple inspired by Tirupati Tirumala." },
+    "Dodda Alada Mara Hidden Trails": { "reason": "Lesser-known trails behind the Big Banyan Tree." },
+    "Grover Vineyards Viewpoint": { "reason": "Hill viewpoint overlooking vineyards and valleys." },
+    "Avalabetta Night View": { "reason": "A peaceful nighttime view spot near Avalabetta." },
+    "Ramadevarabetta Bird Sanctuary": { "reason": "Bird-watching paradise with scenic cliffs and forest." }
+  }
+}

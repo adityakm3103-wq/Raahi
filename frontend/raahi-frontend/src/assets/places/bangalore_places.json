@@ -1,0 +1,1139 @@
+{
+  "circuits": {
+    "Bangalore_City_Circuit": {
+      "description": "Core city attractions—gardens, palaces, museums.",
+      "places": [
+        "Lalbagh Botanical Garden",
+        "Cubbon Park",
+        "Vidhana Soudha",
+        "Bangalore Palace",
+        "Tipu Sultan’s Summer Palace",
+        "UB City",
+        "MG Road",
+        "Brigade Road",
+        "Commercial Street",
+        "Church Street",
+        "Indiranagar 100 Feet Road",
+        "Orion Mall",
+        "Phoenix Marketcity",
+        "ISKCON Temple Rajajinagar",
+        "Bull Temple",
+        "Dodda Ganapathi Temple",
+        "St. Mary’s Basilica",
+        "St. Mark’s Cathedral",
+        "HAL Heritage Centre & Aerospace Museum",
+        "Jawaharlal Nehru Planetarium",
+        "Visvesvaraya Industrial & Technological Museum",
+        "National Gallery of Modern Art (NGMA)",
+        "Bannerghatta Biological Park",
+        "Sankey Tank",
+        "Ulsoor Lake",
+        "Freedom Park",
+        "Government Museum",
+        "Venkatappa Art Gallery",
+        "Kanteerava Stadium",
+        "Nandi Temple Park Area",
+        "Innovative Film City"
+      ],
+      "places_detailed": [
+        {
+          "name": "Lalbagh Botanical Garden",
+          "lat": 12.9507,
+          "lng": 77.5848,
+          "durationMinutes": 120,
+          "category": "Nature Park"
+        },
+        {
+          "name": "Cubbon Park",
+          "lat": 12.9763,
+          "lng": 77.5929,
+          "durationMinutes": 90,
+          "category": "Nature Park"
+        },
+        {
+          "name": "Vidhana Soudha",
+          "lat": 12.9797,
+          "lng": 77.5907,
+          "durationMinutes": 30,
+          "category": "Monument"
+        },
+        {
+          "name": "Bangalore Palace",
+          "lat": 12.9987,
+          "lng": 77.5921,
+          "durationMinutes": 90,
+          "category": "Palace"
+        },
+        {
+          "name": "Tipu Sultan’s Summer Palace",
+          "lat": 12.9594,
+          "lng": 77.5732,
+          "durationMinutes": 45,
+          "category": "Historical Monument"
+        },
+        {
+          "name": "UB City",
+          "lat": 12.9716,
+          "lng": 77.5965,
+          "durationMinutes": 60,
+          "category": "Shopping"
+        },
+        {
+          "name": "MG Road",
+          "lat": 12.9759,
+          "lng": 77.6033,
+          "durationMinutes": 60,
+          "category": "Shopping Street"
+        },
+        {
+          "name": "Brigade Road",
+          "lat": 12.9718,
+          "lng": 77.6050,
+          "durationMinutes": 60,
+          "category": "Shopping Street"
+        },
+        {
+          "name": "Commercial Street",
+          "lat": 12.9792,
+          "lng": 77.6071,
+          "durationMinutes": 90,
+          "category": "Shopping"
+        },
+        {
+          "name": "Church Street",
+          "lat": 12.9732,
+          "lng": 77.6049,
+          "durationMinutes": 60,
+          "category": "Food & Hangout"
+        },
+        {
+          "name": "Indiranagar 100 Feet Road",
+          "lat": 12.9719,
+          "lng": 77.6412,
+          "durationMinutes": 90,
+          "category": "Food & Nightlife"
+        },
+        {
+          "name": "Orion Mall",
+          "lat": 13.0116,
+          "lng": 77.5563,
+          "durationMinutes": 120,
+          "category": "Mall"
+        },
+        {
+          "name": "Phoenix Marketcity",
+          "lat": 12.9964,
+          "lng": 77.6966,
+          "durationMinutes": 180,
+          "category": "Mall"
+        },
+        {
+          "name": "ISKCON Temple Rajajinagar",
+          "lat": 13.0107,
+          "lng": 77.5511,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Bull Temple",
+          "lat": 12.9413,
+          "lng": 77.5680,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Dodda Ganapathi Temple",
+          "lat": 12.9410,
+          "lng": 77.5674,
+          "durationMinutes": 30,
+          "category": "Temple"
+        },
+        {
+          "name": "St. Mary’s Basilica",
+          "lat": 12.9835,
+          "lng": 77.6058,
+          "durationMinutes": 45,
+          "category": "Church"
+        },
+        {
+          "name": "St. Mark’s Cathedral",
+          "lat": 12.9738,
+          "lng": 77.5997,
+          "durationMinutes": 30,
+          "category": "Cathedral"
+        },
+        {
+          "name": "HAL Heritage Centre & Aerospace Museum",
+          "lat": 12.9492,
+          "lng": 77.6719,
+          "durationMinutes": 90,
+          "category": "Museum"
+        },
+        {
+          "name": "Jawaharlal Nehru Planetarium",
+          "lat": 12.9847,
+          "lng": 77.5897,
+          "durationMinutes": 75,
+          "category": "Planetarium"
+        },
+        {
+          "name": "Visvesvaraya Industrial & Technological Museum",
+          "lat": 12.9767,
+          "lng": 77.5963,
+          "durationMinutes": 90,
+          "category": "Museum"
+        },
+        {
+          "name": "National Gallery of Modern Art (NGMA)",
+          "lat": 12.9982,
+          "lng": 77.5913,
+          "durationMinutes": 90,
+          "category": "Art Gallery"
+        },
+        {
+          "name": "Bannerghatta Biological Park",
+          "lat": 12.8000,
+          "lng": 77.5770,
+          "durationMinutes": 180,
+          "category": "Zoo / Safari"
+        },
+        {
+          "name": "Sankey Tank",
+          "lat": 13.0086,
+          "lng": 77.5740,
+          "durationMinutes": 45,
+          "category": "Lake"
+        },
+        {
+          "name": "Ulsoor Lake",
+          "lat": 12.9833,
+          "lng": 77.6280,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Freedom Park",
+          "lat": 12.9740,
+          "lng": 77.5763,
+          "durationMinutes": 45,
+          "category": "Park"
+        },
+        {
+          "name": "Government Museum",
+          "lat": 12.9760,
+          "lng": 77.5950,
+          "durationMinutes": 60,
+          "category": "Museum"
+        },
+        {
+          "name": "Venkatappa Art Gallery",
+          "lat": 12.9761,
+          "lng": 77.5952,
+          "durationMinutes": 45,
+          "category": "Art Gallery"
+        },
+        {
+          "name": "Kanteerava Stadium",
+          "lat": 12.9692,
+          "lng": 77.5954,
+          "durationMinutes": 30,
+          "category": "Sports Complex"
+        },
+        {
+          "name": "Nandi Temple Park Area",
+          "lat": 12.9408,
+          "lng": 77.5681,
+          "durationMinutes": 30,
+          "category": "Temple Area"
+        },
+        {
+          "name": "Innovative Film City",
+          "lat": 12.8334,
+          "lng": 77.3020,
+          "durationMinutes": 180,
+          "category": "Theme Park"
+        }
+      ]
+    },
+
+    "City_Lakes_Gardens_Circuit": {
+      "description": "Beautiful lake parks & urban nature zones.",
+      "places": [
+        "JP Park",
+        "Madiwala Lake",
+        "Hebbal Lake",
+        "Kaikondrahalli Lake",
+        "Agara Lake",
+        "Nagawara Lake",
+        "Begur Lake",
+        "Yelahanka Lake",
+        "Puttenahalli Lake",
+        "Hesaraghatta Lake",
+        "Thottikallu Falls (TK Falls)",
+        "Pearl Valley (Muthyala Maduvu)",
+        "Manchanabele Dam",
+        "Hesaraghatta Grasslands",
+        "Tippagondanahalli Reservoir",
+        "Turahalli Forest Viewpoint",
+        "Big Banyan Tree — Dodda Alada Mara",
+        "Bannerghatta Butterfly Park"
+      ],
+      "places_detailed": [
+        {
+          "name": "JP Park",
+          "lat": 13.0283,
+          "lng": 77.5421,
+          "durationMinutes": 60,
+          "category": "Park"
+        },
+        {
+          "name": "Madiwala Lake",
+          "lat": 12.9060,
+          "lng": 77.6272,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Hebbal Lake",
+          "lat": 13.0354,
+          "lng": 77.5970,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Kaikondrahalli Lake",
+          "lat": 12.9079,
+          "lng": 77.6701,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Agara Lake",
+          "lat": 12.9271,
+          "lng": 77.6454,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Nagawara Lake",
+          "lat": 13.0312,
+          "lng": 77.6245,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Begur Lake",
+          "lat": 12.8865,
+          "lng": 77.6418,
+          "durationMinutes": 45,
+          "category": "Lake"
+        },
+        {
+          "name": "Yelahanka Lake",
+          "lat": 13.0969,
+          "lng": 77.5979,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Puttenahalli Lake",
+          "lat": 12.9050,
+          "lng": 77.5850,
+          "durationMinutes": 45,
+          "category": "Lake"
+        },
+        {
+          "name": "Hesaraghatta Lake",
+          "lat": 13.1391,
+          "lng": 77.4782,
+          "durationMinutes": 90,
+          "category": "Lake"
+        },
+        {
+          "name": "Thottikallu Falls (TK Falls)",
+          "lat": 12.7809,
+          "lng": 77.5014,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Pearl Valley (Muthyala Maduvu)",
+          "lat": 12.7452,
+          "lng": 77.6954,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Manchanabele Dam",
+          "lat": 12.9345,
+          "lng": 77.3515,
+          "durationMinutes": 60,
+          "category": "Dam"
+        },
+        {
+          "name": "Hesaraghatta Grasslands",
+          "lat": 13.1376,
+          "lng": 77.4788,
+          "durationMinutes": 90,
+          "category": "Grassland"
+        },
+        {
+          "name": "Tippagondanahalli Reservoir",
+          "lat": 12.9963,
+          "lng": 77.3315,
+          "durationMinutes": 60,
+          "category": "Reservoir"
+        },
+        {
+          "name": "Turahalli Forest Viewpoint",
+          "lat": 12.8883,
+          "lng": 77.5040,
+          "durationMinutes": 60,
+          "category": "Forest"
+        },
+        {
+          "name": "Big Banyan Tree — Dodda Alada Mara",
+          "lat": 12.9450,
+          "lng": 77.3691,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Bannerghatta Butterfly Park",
+          "lat": 12.8036,
+          "lng": 77.5771,
+          "durationMinutes": 60,
+          "category": "Park"
+        }
+      ]
+    },
+
+    "Temples_Monasteries_Circuit": {
+      "description": "Major temples & spiritual centers.",
+      "places": [
+        "ISKCON Rajajinagar",
+        "Bull Temple",
+        "Gavi Gangadhareshwara Temple",
+        "Banashankari Amma Temple",
+        "Ragigudda Anjaneya Temple",
+        "Shivoham Shiva Temple",
+        "Kadu Malleshwara Temple",
+        "Chokkanathaswamy Temple — Domlur",
+        "Art of Living International Center",
+        "Pyramid Valley International",
+        "Infant Jesus Church—Viveknagar",
+        "St. Francis Xavier’s Cathedral",
+        "Sri Prasanna Veeranjaneya Swamy Temple",
+        "Ranganathaswamy Temple—Balepet",
+        "Sri Sai Baba Ashram—Whitefield"
+      ],
+      "places_detailed": [
+        {
+          "name": "ISKCON Rajajinagar",
+          "lat": 13.0107,
+          "lng": 77.5511,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Bull Temple",
+          "lat": 12.9413,
+          "lng": 77.5680,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Gavi Gangadhareshwara Temple",
+          "lat": 12.9576,
+          "lng": 77.5437,
+          "durationMinutes": 45,
+          "category": "Cave Temple"
+        },
+        {
+          "name": "Banashankari Amma Temple",
+          "lat": 12.9417,
+          "lng": 77.5739,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Ragigudda Anjaneya Temple",
+          "lat": 12.9173,
+          "lng": 77.6108,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Shivoham Shiva Temple",
+          "lat": 12.9537,
+          "lng": 77.6659,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Kadu Malleshwara Temple",
+          "lat": 13.0051,
+          "lng": 77.5696,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Chokkanathaswamy Temple — Domlur",
+          "lat": 12.9564,
+          "lng": 77.6386,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Art of Living International Center",
+          "lat": 12.7634,
+          "lng": 77.5080,
+          "durationMinutes": 120,
+          "category": "Spiritual Center"
+        },
+        {
+          "name": "Pyramid Valley International",
+          "lat": 12.7189,
+          "lng": 77.5077,
+          "durationMinutes": 90,
+          "category": "Meditation Center"
+        },
+        {
+          "name": "Infant Jesus Church—Viveknagar",
+          "lat": 12.9519,
+          "lng": 77.6222,
+          "durationMinutes": 45,
+          "category": "Church"
+        },
+        {
+          "name": "St. Francis Xavier’s Cathedral",
+          "lat": 12.9901,
+          "lng": 77.6048,
+          "durationMinutes": 45,
+          "category": "Cathedral"
+        },
+        {
+          "name": "Sri Prasanna Veeranjaneya Swamy Temple",
+          "lat": 12.9775,
+          "lng": 77.5747,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Ranganathaswamy Temple—Balepet",
+          "lat": 12.9728,
+          "lng": 77.5710,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Sri Sai Baba Ashram—Whitefield",
+          "lat": 12.9707,
+          "lng": 77.7500,
+          "durationMinutes": 60,
+          "category": "Ashram"
+        }
+      ]
+    },
+
+    "Heritage_Architecture_Circuit": {
+      "description": "Historic monuments & cultural sites.",
+      "places": [
+        "Bangalore Fort",
+        "Tipu Sultan’s Fort (KR Market)",
+        "Mayo Hall",
+        "Attara Kacheri (High Court)",
+        "Seshadri Iyer Memorial Hall",
+        "KR Market Flower Market",
+        "Dharmaraya Swamy Temple",
+        "Vidhana Soudha Night View"
+      ],
+      "places_detailed": [
+        {
+          "name": "Bangalore Fort",
+          "lat": 12.9623,
+          "lng": 77.5770,
+          "durationMinutes": 45,
+          "category": "Fort"
+        },
+        {
+          "name": "Tipu Sultan’s Fort (KR Market)",
+          "lat": 12.9628,
+          "lng": 77.5758,
+          "durationMinutes": 45,
+          "category": "Fort"
+        },
+        {
+          "name": "Mayo Hall",
+          "lat": 12.9738,
+          "lng": 77.6137,
+          "durationMinutes": 30,
+          "category": "Heritage Building"
+        },
+        {
+          "name": "Attara Kacheri (High Court)",
+          "lat": 12.9773,
+          "lng": 77.5929,
+          "durationMinutes": 30,
+          "category": "Heritage Building"
+        },
+        {
+          "name": "Seshadri Iyer Memorial Hall",
+          "lat": 12.9767,
+          "lng": 77.5952,
+          "durationMinutes": 30,
+          "category": "Heritage Building"
+        },
+        {
+          "name": "KR Market Flower Market",
+          "lat": 12.9618,
+          "lng": 77.5732,
+          "durationMinutes": 60,
+          "category": "Market"
+        },
+        {
+          "name": "Dharmaraya Swamy Temple",
+          "lat": 12.9603,
+          "lng": 77.5741,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Vidhana Soudha Night View",
+          "lat": 12.9796,
+          "lng": 77.5907,
+          "durationMinutes": 20,
+          "category": "Night Viewpoint"
+        }
+      ]
+    },
+
+    "Nandi_Hills_Cluster": {
+      "description": "Short trip from Bangalore—best sunrise + heritage.",
+      "places": [
+        "Nandi Hills Sunrise Point",
+        "Tipu’s Drop",
+        "Tipu’s Residence",
+        "Brahmashram Cave",
+        "Skandagiri Sunrise Trek",
+        "Channagiri Hills",
+        "Bhoga Nandeeshwara Temple",
+        "Muddenahalli Memorial",
+        "Grover Zampa Vineyards"
+      ],
+      "places_detailed": [
+        {
+          "name": "Nandi Hills Sunrise Point",
+          "lat": 13.3702,
+          "lng": 77.6835,
+          "durationMinutes": 120,
+          "category": "Sunrise Point"
+        },
+        {
+          "name": "Tipu’s Drop",
+          "lat": 13.3711,
+          "lng": 77.6832,
+          "durationMinutes": 30,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Tipu’s Residence",
+          "lat": 13.3721,
+          "lng": 77.6841,
+          "durationMinutes": 30,
+          "category": "Heritage"
+        },
+        {
+          "name": "Brahmashram Cave",
+          "lat": 13.3750,
+          "lng": 77.6831,
+          "durationMinutes": 45,
+          "category": "Cave"
+        },
+        {
+          "name": "Skandagiri Sunrise Trek",
+          "lat": 13.4017,
+          "lng": 77.6838,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Channagiri Hills",
+          "lat": 13.3769,
+          "lng": 77.7297,
+          "durationMinutes": 180,
+          "category": "Trek"
+        },
+        {
+          "name": "Bhoga Nandeeshwara Temple",
+          "lat": 13.3731,
+          "lng": 77.6835,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Muddenahalli Memorial",
+          "lat": 13.3683,
+          "lng": 77.7276,
+          "durationMinutes": 60,
+          "category": "Museum"
+        },
+        {
+          "name": "Grover Zampa Vineyards",
+          "lat": 13.3600,
+          "lng": 77.7563,
+          "durationMinutes": 120,
+          "category": "Vineyard"
+        }
+      ]
+    },
+
+    "Kanakapura_Ramanagara_Circuit": {
+      "description": "Falls + forests + adventure areas south of Bangalore.",
+      "places": [
+        "Mekedatu & Sangama",
+        "Chunchi Falls",
+        "Bheemeshwari Nature Camp",
+        "Muthathi Forest",
+        "Pyramid Valley",
+        "Shilhaandara Adventure Park",
+        "Ramadevara Betta (Sholay Hills)",
+        "Kabbaladurga Trek",
+        "Kanva Reservoir",
+        "Manchanabele Dam",
+        "Ravugodlu Hill"
+      ],
+      "places_detailed": [
+        {
+          "name": "Mekedatu & Sangama",
+          "lat": 12.2593,
+          "lng": 77.4190,
+          "durationMinutes": 120,
+          "category": "River Gorge"
+        },
+        {
+          "name": "Chunchi Falls",
+          "lat": 12.2493,
+          "lng": 77.4059,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Bheemeshwari Nature Camp",
+          "lat": 12.3142,
+          "lng": 77.2819,
+          "durationMinutes": 180,
+          "category": "Nature Camp"
+        },
+        {
+          "name": "Muthathi Forest",
+          "lat": 12.3063,
+          "lng": 77.3186,
+          "durationMinutes": 90,
+          "category": "Forest"
+        },
+        {
+          "name": "Pyramid Valley",
+          "lat": 12.7189,
+          "lng": 77.5077,
+          "durationMinutes": 90,
+          "category": "Meditation Center"
+        },
+        {
+          "name": "Shilhaandara Adventure Park",
+          "lat": 12.7341,
+          "lng": 77.4211,
+          "durationMinutes": 180,
+          "category": "Adventure Park"
+        },
+        {
+          "name": "Ramadevara Betta (Sholay Hills)",
+          "lat": 12.6794,
+          "lng": 77.3004,
+          "durationMinutes": 120,
+          "category": "Hill"
+        },
+        {
+          "name": "Kabbaladurga Trek",
+          "lat": 12.6833,
+          "lng": 77.2300,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Kanva Reservoir",
+          "lat": 12.9793,
+          "lng": 77.2751,
+          "durationMinutes": 90,
+          "category": "Reservoir"
+        },
+        {
+          "name": "Manchanabele Dam",
+          "lat": 12.9345,
+          "lng": 77.3515,
+          "durationMinutes": 60,
+          "category": "Dam"
+        },
+        {
+          "name": "Ravugodlu Hill",
+          "lat": 12.7811,
+          "lng": 77.4965,
+          "durationMinutes": 120,
+          "category": "Hill"
+        }
+      ]
+    },
+
+    "Tumkur_Magadi_Circuit": {
+      "description": "Northern Bangalore hill region with treks & temples.",
+      "places": [
+        "Shivagange Hill",
+        "Devarayanadurga",
+        "Namada Chilume",
+        "Siddara Betta",
+        "Mandaragiri Jain Temple",
+        "Hulukadi Betta"
+      ],
+      "places_detailed": [
+        {
+          "name": "Shivagange Hill",
+          "lat": 13.0076,
+          "lng": 77.1930,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Devarayanadurga",
+          "lat": 13.3709,
+          "lng": 77.2060,
+          "durationMinutes": 120,
+          "category": "Hill & Temple"
+        },
+        {
+          "name": "Namada Chilume",
+          "lat": 13.3720,
+          "lng": 77.2123,
+          "durationMinutes": 45,
+          "category": "Spring"
+        },
+        {
+          "name": "Siddara Betta",
+          "lat": 13.7298,
+          "lng": 77.2941,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Mandaragiri Jain Temple",
+          "lat": 13.5594,
+          "lng": 77.3035,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Hulukadi Betta",
+          "lat": 13.5071,
+          "lng": 77.3436,
+          "durationMinutes": 180,
+          "category": "Trek"
+        }
+      ]
+    },
+
+    "Channapatna_Anekal_Circuit": {
+      "description": "Forests + lakes + nature parks.",
+      "places": [
+        "Ravugodlu Lake",
+        "Bannerghatta Trek Trails",
+        "Pearl Valley (Muthyala Maduvu)",
+        "Anekal Lake",
+        "Thattekere Lake",
+        "Bettamugilalam Forest Drive"
+      ],
+      "places_detailed": [
+        {
+          "name": "Ravugodlu Lake",
+          "lat": 12.7990,
+          "lng": 77.5662,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Bannerghatta Trek Trails",
+          "lat": 12.8010,
+          "lng": 77.5775,
+          "durationMinutes": 150,
+          "category": "Trek"
+        },
+        {
+          "name": "Pearl Valley (Muthyala Maduvu)",
+          "lat": 12.7452,
+          "lng": 77.6954,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Anekal Lake",
+          "lat": 12.7110,
+          "lng": 77.7024,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Thattekere Lake",
+          "lat": 12.7344,
+          "lng": 77.6401,
+          "durationMinutes": 60,
+          "category": "Lake"
+        },
+        {
+          "name": "Bettamugilalam Forest Drive",
+          "lat": 12.5880,
+          "lng": 77.7842,
+          "durationMinutes": 120,
+          "category": "Forest"
+        }
+      ]
+    },
+
+    "Adventure_Fun_Parks": {
+      "description": "Activities & thrill parks around Bangalore.",
+      "places": [
+        "Wonderla",
+        "Innovative Film City",
+        "Snow City",
+        "XtremeZone Adventure Park",
+        "Jain Farms",
+        "Grover Vineyard Tours",
+        "Eco Adventure Camp Kanakapura",
+        "Skandagiri Sunrise Trek",
+        "Microlight Flying — Jakkur"
+      ],
+      "places_detailed": [
+        {
+          "name": "Wonderla",
+          "lat": 12.8348,
+          "lng": 77.4017,
+          "durationMinutes": 240,
+          "category": "Theme Park"
+        },
+        {
+          "name": "Innovative Film City",
+          "lat": 12.8334,
+          "lng": 77.3020,
+          "durationMinutes": 180,
+          "category": "Theme Park"
+        },
+        {
+          "name": "Snow City",
+          "lat": 12.9982,
+          "lng": 77.5921,
+          "durationMinutes": 90,
+          "category": "Amusement Indoor"
+        },
+        {
+          "name": "XtremeZone Adventure Park",
+          "lat": 12.9347,
+          "lng": 77.5180,
+          "durationMinutes": 180,
+          "category": "Adventure Park"
+        },
+        {
+          "name": "Jain Farms",
+          "lat": 12.8460,
+          "lng": 77.9200,
+          "durationMinutes": 180,
+          "category": "Farm Resort"
+        },
+        {
+          "name": "Grover Vineyard Tours",
+          "lat": 13.3600,
+          "lng": 77.7563,
+          "durationMinutes": 120,
+          "category": "Vineyard"
+        },
+        {
+          "name": "Eco Adventure Camp Kanakapura",
+          "lat": 12.5314,
+          "lng": 77.4264,
+          "durationMinutes": 180,
+          "category": "Adventure Camp"
+        },
+        {
+          "name": "Skandagiri Sunrise Trek",
+          "lat": 13.4017,
+          "lng": 77.6838,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Microlight Flying — Jakkur",
+          "lat": 13.0855,
+          "lng": 77.5965,
+          "durationMinutes": 45,
+          "category": "Aerial Activity"
+        }
+      ]
+    },
+
+    "Weekend_Getaways_Circuit": {
+      "description": "Outskirts & nearby states—quick weekend escapes.",
+      "places": [
+        "Lepakshi",
+        "Avalabetta Hilltop",
+        "Chikballapur Hills",
+        "Horsley Hills",
+        "Anthargange Caves",
+        "Kotilingeshwara Temple",
+        "Markonahalli Dam",
+        "Hogenakkal Falls",
+        "Madhugiri Fort Trek",
+        "Gudibande Fort",
+        "Avalahalli Forest Trail"
+      ],
+      "places_detailed": [
+        {
+          "name": "Lepakshi",
+          "lat": 13.8045,
+          "lng": 77.6091,
+          "durationMinutes": 120,
+          "category": "Temple / Heritage"
+        },
+        {
+          "name": "Avalabetta Hilltop",
+          "lat": 13.5394,
+          "lng": 77.7750,
+          "durationMinutes": 90,
+          "category": "Hilltop"
+        },
+        {
+          "name": "Chikballapur Hills",
+          "lat": 13.4350,
+          "lng": 77.7310,
+          "durationMinutes": 150,
+          "category": "Hill"
+        },
+        {
+          "name": "Horsley Hills",
+          "lat": 13.6591,
+          "lng": 78.3994,
+          "durationMinutes": 240,
+          "category": "Hill Station"
+        },
+        {
+          "name": "Anthargange Caves",
+          "lat": 13.1067,
+          "lng": 78.0433,
+          "durationMinutes": 180,
+          "category": "Caves / Trek"
+        },
+        {
+          "name": "Kotilingeshwara Temple",
+          "lat": 13.0582,
+          "lng": 78.3315,
+          "durationMinutes": 120,
+          "category": "Temple"
+        },
+        {
+          "name": "Markonahalli Dam",
+          "lat": 13.6351,
+          "lng": 76.9504,
+          "durationMinutes": 60,
+          "category": "Dam"
+        },
+        {
+          "name": "Hogenakkal Falls",
+          "lat": 12.1112,
+          "lng": 77.7787,
+          "durationMinutes": 180,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Madhugiri Fort Trek",
+          "lat": 13.6607,
+          "lng": 77.2198,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Gudibande Fort",
+          "lat": 13.6705,
+          "lng": 77.6986,
+          "durationMinutes": 150,
+          "category": "Fort"
+        },
+        {
+          "name": "Avalahalli Forest Trail",
+          "lat": 12.9905,
+          "lng": 77.6832,
+          "durationMinutes": 120,
+          "category": "Forest"
+        }
+      ]
+    },
+
+    "Hidden_Offbeat_Places": {
+      "description": "Secret + less explored Bangalore destinations.",
+      "places": [
+        "Turahalli Forest Sunrise Point",
+        "Hesaraghatta Grasslands",
+        "Chikka Tirupati Temple",
+        "Dodda Alada Mara Hidden Trails",
+        "Grover Vineyards Viewpoint",
+        "Avalabetta Night View",
+        "Ramadevarabetta Bird Sanctuary"
+      ],
+      "places_detailed": [
+        {
+          "name": "Turahalli Forest Sunrise Point",
+          "lat": 12.8883,
+          "lng": 77.5040,
+          "durationMinutes": 90,
+          "category": "Sunrise Point"
+        },
+        {
+          "name": "Hesaraghatta Grasslands",
+          "lat": 13.1376,
+          "lng": 77.4788,
+          "durationMinutes": 90,
+          "category": "Grassland"
+        },
+        {
+          "name": "Chikka Tirupati Temple",
+          "lat": 12.8800,
+          "lng": 77.8523,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Dodda Alada Mara Hidden Trails",
+          "lat": 12.9450,
+          "lng": 77.3691,
+          "durationMinutes": 90,
+          "category": "Forest Trail"
+        },
+        {
+          "name": "Grover Vineyards Viewpoint",
+          "lat": 13.3600,
+          "lng": 77.7563,
+          "durationMinutes": 90,
+          "category": "Vineyard View"
+        },
+        {
+          "name": "Avalabetta Night View",
+          "lat": 13.5394,
+          "lng": 77.7750,
+          "durationMinutes": 120,
+          "category": "Night Viewpoint"
+        },
+        {
+          "name": "Ramadevarabetta Bird Sanctuary",
+          "lat": 12.6790,
+          "lng": 77.2975,
+          "durationMinutes": 120,
+          "category": "Bird Sanctuary"
+        }
+      ]
+    }
+  }
+}

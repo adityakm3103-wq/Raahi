@@ -1,0 +1,187 @@
+{
+  "Madikeri_Circuit": {
+    "Raja’s Seat": {
+      "reason": "A stunning sunset viewpoint offering panoramic views of the Coorg valley."
+    },
+    "Omkareshwara Temple": {
+      "reason": "A unique mix of Gothic and Islamic architecture with serene lake surroundings."
+    },
+    "Madikeri Fort": {
+      "reason": "A historic 17th-century fort showcasing Coorg’s royal heritage."
+    },
+    "Gaddige Raja’s Tombs": {
+      "reason": "Beautiful Indo-Saracenic style royal tombs set amidst peaceful greenery."
+    },
+    "Abbey Falls": {
+      "reason": "A famous waterfall set inside dense coffee plantations—great for photography."
+    },
+    "Mandalpatti Viewpoint": {
+      "reason": "One of Coorg’s top viewpoints known for its stunning sunrise and misty hills."
+    },
+    "Mandalpatti Jeep Point": {
+      "reason": "Adventure-packed jeep ride offering thrilling trails and hilltop views."
+    },
+    "Galibeedu Viewpoint": {
+      "reason": "Quiet and scenic viewpoint offering peaceful views of Coorg’s lush valleys."
+    },
+    "Government Museum – Madikeri": {
+      "reason": "A small heritage museum preserving Kodava culture and historical artifacts."
+    },
+    "Omkareshwara Lake Front Heritage Path": {
+      "reason": "A calm lakeside heritage walkway perfect for morning and evening strolls."
+    },
+    "Coffee Museum – Madikeri": {
+      "reason": "A quick stop to learn about Coorg’s coffee history, cultivation & tasting."
+    },
+    "Karada Village Heritage Houses": {
+      "reason": "Traditional Coorgi-style homes showcasing rich local culture & architecture."
+    },
+    "Devarakolli Falls": {
+      "reason": "A quiet seasonal waterfall surrounded by untouched forest landscapes."
+    }
+  },
+
+  "Kushalnagar_Circuit": {
+    "Dubare Elephant Camp": {
+      "reason": "Close-up elephant interactions including feeding, bathing, and training."
+    },
+    "Elephant Interaction Camp – Dubare": {
+      "reason": "Unique chance to observe and interact with trained elephants responsibly."
+    },
+    "Kaveri Nisargadhama": {
+      "reason": "A scenic river island ideal for nature walks, hanging bridge, and deer park."
+    },
+    "Nisargadhama Deer Park": {
+      "reason": "Peaceful forest area with deer sightings—great for families."
+    },
+    "Nisargadhama Bamboo Forest Walk": {
+      "reason": "A refreshing walk under dense bamboo groves on a river island."
+    },
+    "Chiklihole Reservoir": {
+      "reason": "A peaceful lake with perfect reflections—excellent for photography."
+    },
+    "Harangi Dam & Backwaters": {
+      "reason": "A picturesque dam with serene backwaters surrounded by greenery."
+    },
+    "Namdroling Monastery (Golden Temple, Bylakuppe)": {
+      "reason": "Coorg’s iconic Tibetan monastery known for its massive golden statues."
+    }
+  },
+
+  "Somwarpet_Circuit": {
+    "Honnamana Kere Lake": {
+      "reason": "A beautiful lake surrounded by mountains—popular for calm nature time."
+    },
+    "Mallalli Falls": {
+      "reason": "One of Coorg’s tallest waterfalls with dramatic views and trekking paths."
+    },
+    "Kote Betta": {
+      "reason": "A scenic trek offering wide valley views and cool hilltop breezes."
+    },
+    "Pushpagiri Peak": {
+      "reason": "A challenging trek to one of Karnataka’s highest peaks—adventure-friendly."
+    },
+    "Nalknad Palace": {
+      "reason": "A centuries-old royal palace with murals and preserved architecture."
+    },
+    "Somwarpet Lake Park": {
+      "reason": "A quiet lakeside park suitable for evening walks."
+    },
+    "Hattihole Falls": {
+      "reason": "A hidden waterfall surrounded by thick forests—great for nature lovers."
+    }
+  },
+
+  "Kakkabe_Brahmagiri_Circuit": {
+    "Tadiandamol Peak": {
+      "reason": "The highest peak of Coorg known for breathtaking trek routes and views."
+    },
+    "Nalknad Palace": {
+      "reason": "A heritage palace showcasing Kodava royal history and cultural details."
+    },
+    "Padi Igguthappa Temple": {
+      "reason": "One of Coorg’s most sacred temples dedicated to the God of Harvest."
+    },
+    "Talacauvery (Cauvery Origin)": {
+      "reason": "Birthplace of River Cauvery offering spiritual and scenic significance."
+    },
+    "Bhagamandala Triveni Sangama": {
+      "reason": "Sacred confluence of three rivers—an important pilgrimage site."
+    },
+    "Brahmagiri Peak": {
+      "reason": "A forested peak offering a mix of trekking, wildlife, and landscapes."
+    }
+  },
+
+  "Virajpet_Circuit": {
+    "Ayyappa Swamy Temple – Virajpet": {
+      "reason": "A revered temple with peaceful surroundings and local devotion."
+    },
+    "Mylara Linga Temple": {
+      "reason": "A quiet temple known for traditional architecture and heritage value."
+    },
+    "St. Anne’s Church": {
+      "reason": "A 200-year-old church with Gothic architecture and serene interiors."
+    },
+    "St. Michael’s Church": {
+      "reason": "A historic Christian landmark with calm surroundings."
+    },
+    "Virajpet Clock Tower": {
+      "reason": "A heritage landmark built during British rule—symbol of Virajpet town."
+    }
+  },
+
+  "Wildlife_Adventure_Circuit": {
+    "Nagarhole National Park": {
+      "reason": "One of India’s top tiger reserves—great for wildlife safaris."
+    },
+    "Brahmagiri Wildlife Sanctuary": {
+      "reason": "A lush sanctuary filled with rich biodiversity and scenic forests."
+    },
+    "Pushpagiri Wildlife Sanctuary": {
+      "reason": "A protected forest area excellent for trekking and birdwatching."
+    },
+    "Barapole River Rafting": {
+      "reason": "Coorg’s most thrilling white-water rafting experience."
+    },
+    "Dubare River Rafting": {
+      "reason": "A fun rafting stretch suitable for beginners and families."
+    },
+    "Tadiandamol Trek": {
+      "reason": "A scenic high-altitude trek through misty landscapes."
+    },
+    "Pushpagiri Trek": {
+      "reason": "A rewarding trek filled with forests, peaks, and valley views."
+    },
+    "Kote Betta Trek": {
+      "reason": "A moderate trek offering panoramic hill views around Coorg."
+    },
+    "Microlight Flying – Chelavara": {
+      "reason": "Unique air adventure offering breathtaking aerial views of Coorg."
+    },
+    "Chelavara Falls": {
+      "reason": "A beautiful waterfall known for its enormous rock formations."
+    }
+  },
+
+  "Hidden_Offbeat_Places": {
+    "Mandalpatti via Mukkodlu Route": {
+      "reason": "Offbeat trail to Mandalpatti passing remote forests and viewpoints."
+    },
+    "Chelavara – Kanjirakolly Scenic Route": {
+      "reason": "A lesser-known scenic drive with lush valleys and waterfalls."
+    },
+    "Kote Abbey Trek": {
+      "reason": "A peaceful forest trek perfect for offbeat explorers."
+    },
+    "Nandigundi Falls": {
+      "reason": "A hidden waterfall with untouched natural surroundings."
+    },
+    "Hattihole Bridge Spot (Photo Point)": {
+      "reason": "A calm riverside spot ideal for photography and relaxation."
+    },
+    "Honey Valley Offbeat Trails": {
+      "reason": "Secluded trails inside deep forest beloved by trekkers."
+    }
+  }
+}

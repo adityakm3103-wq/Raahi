@@ -1,0 +1,112 @@
+/* 🌄 Smooth background pan & zoom animation */
+@keyframes heroPan {
+  0% {
+    background-position: center top;
+    transform: scale(1);
+  }
+  50% {
+    background-position: center center;
+    transform: scale(1.05);
+  }
+  100% {
+    background-position: center bottom;
+    transform: scale(1);
+  }
+}
+
+.animate-hero-pan {
+  animation: heroPan 25s ease-in-out infinite alternate;
+}
+
+/* ✨ Fade-in animation for hero text */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* 🌬 Floating scroll indicator animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 2.5s ease-in-out infinite;
+}
+
+/* 💡 Optional glowing hover for buttons */
+.hover\:shadow-glow:hover {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+/* 🌈 Animated gradient background for buttons */
+.gradient-hero {
+  background: linear-gradient(135deg, #7e22ce, #ec4899, #f97316);
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 🪄 Optional card gradient background */
+.gradient-card {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 🎬 Smooth slide-up animation for feature cards */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out;
+}
+
+/* 🕊️ Smooth hover transitions */
+.transition-base {
+  transition: all 0.3s ease-in-out;
+}
+
+.transition-slow {
+  transition: all 1.5s ease-in-out;
+}

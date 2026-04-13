@@ -1,0 +1,499 @@
+{
+  "circuits": {
+    "Madikeri_Circuit": {
+      "description": "Places around Madikeri town — easy to cover in 1 day.",
+      "places": [
+        "Raja’s Seat",
+        "Omkareshwara Temple",
+        "Madikeri Fort",
+        "Gaddige Raja’s Tombs",
+        "Abbey Falls",
+        "Mandalpatti Viewpoint",
+        "Mandalpatti Jeep Point",
+        "Galibeedu Viewpoint",
+        "Government Museum – Madikeri",
+        "Omkareshwara Lake Front Heritage Path",
+        "Coffee Museum – Madikeri",
+        "Karada Village Heritage Houses",
+        "Devarakolli Falls"
+      ],
+      "places_detailed": [
+        {
+          "name": "Raja’s Seat",
+          "lat": 12.4262,
+          "lng": 75.7340,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Omkareshwara Temple",
+          "lat": 12.4248,
+          "lng": 75.7384,
+          "durationMinutes": 30,
+          "category": "Temple"
+        },
+        {
+          "name": "Madikeri Fort",
+          "lat": 12.4244,
+          "lng": 75.7378,
+          "durationMinutes": 45,
+          "category": "Fort"
+        },
+        {
+          "name": "Gaddige Raja’s Tombs",
+          "lat": 12.4317,
+          "lng": 75.7293,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Abbey Falls",
+          "lat": 12.4574,
+          "lng": 75.6992,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Mandalpatti Viewpoint",
+          "lat": 12.5325,
+          "lng": 75.6730,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Mandalpatti Jeep Point",
+          "lat": 12.5321,
+          "lng": 75.6735,
+          "durationMinutes": 20,
+          "category": "Starting Point"
+        },
+        {
+          "name": "Galibeedu Viewpoint",
+          "lat": 12.4921,
+          "lng": 75.6723,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Government Museum – Madikeri",
+          "lat": 12.4246,
+          "lng": 75.7368,
+          "durationMinutes": 30,
+          "category": "Museum"
+        },
+        {
+          "name": "Omkareshwara Lake Front Heritage Path",
+          "lat": 12.4240,
+          "lng": 75.7386,
+          "durationMinutes": 30,
+          "category": "Walkway"
+        },
+        {
+          "name": "Coffee Museum – Madikeri",
+          "lat": 12.4222,
+          "lng": 75.7394,
+          "durationMinutes": 45,
+          "category": "Museum"
+        },
+        {
+          "name": "Karada Village Heritage Houses",
+          "lat": 12.2730,
+          "lng": 75.8080,
+          "durationMinutes": 90,
+          "category": "Heritage Village"
+        },
+        {
+          "name": "Devarakolli Falls",
+          "lat": 12.4088,
+          "lng": 75.6930,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        }
+      ]
+    },
+
+    "Kushalnagar_Circuit": {
+      "description": "River activities, monasteries & wildlife around Kushalnagar.",
+      "places": [
+        "Dubare Elephant Camp",
+        "Elephant Interaction Camp – Dubare",
+        "Kaveri Nisargadhama",
+        "Nisargadhama Deer Park",
+        "Nisargadhama Bamboo Forest Walk",
+        "Chiklihole Reservoir",
+        "Harangi Dam & Backwaters",
+        "Namdroling Monastery (Golden Temple, Bylakuppe)"
+      ],
+      "places_detailed": [
+        {
+          "name": "Dubare Elephant Camp",
+          "lat": 12.3272,
+          "lng": 75.9049,
+          "durationMinutes": 120,
+          "category": "Elephant Camp"
+        },
+        {
+          "name": "Elephant Interaction Camp – Dubare",
+          "lat": 12.3275,
+          "lng": 75.9038,
+          "durationMinutes": 60,
+          "category": "Animal Interaction"
+        },
+        {
+          "name": "Kaveri Nisargadhama",
+          "lat": 12.4438,
+          "lng": 75.9675,
+          "durationMinutes": 90,
+          "category": "Nature Park"
+        },
+        {
+          "name": "Nisargadhama Deer Park",
+          "lat": 12.4435,
+          "lng": 75.9682,
+          "durationMinutes": 45,
+          "category": "Wildlife Park"
+        },
+        {
+          "name": "Nisargadhama Bamboo Forest Walk",
+          "lat": 12.4441,
+          "lng": 75.9669,
+          "durationMinutes": 30,
+          "category": "Nature Walk"
+        },
+        {
+          "name": "Chiklihole Reservoir",
+          "lat": 12.4518,
+          "lng": 75.8571,
+          "durationMinutes": 45,
+          "category": "Reservoir"
+        },
+        {
+          "name": "Harangi Dam & Backwaters",
+          "lat": 12.4641,
+          "lng": 75.9486,
+          "durationMinutes": 60,
+          "category": "Dam"
+        },
+        {
+          "name": "Namdroling Monastery (Golden Temple, Bylakuppe)",
+          "lat": 12.4303,
+          "lng": 75.9670,
+          "durationMinutes": 90,
+          "category": "Monastery"
+        }
+      ]
+    },
+
+    "Somwarpet_Circuit": {
+      "description": "Northern Coorg hills, waterfalls & treks.",
+      "places": [
+        "Honnamana Kere Lake",
+        "Mallalli Falls",
+        "Kote Betta",
+        "Pushpagiri Peak",
+        "Nalknad Palace",
+        "Somwarpet Lake Park",
+        "Hattihole Falls"
+      ],
+      "places_detailed": [
+        {
+          "name": "Honnamana Kere Lake",
+          "lat": 12.5108,
+          "lng": 75.8556,
+          "durationMinutes": 45,
+          "category": "Lake"
+        },
+        {
+          "name": "Mallalli Falls",
+          "lat": 12.5799,
+          "lng": 75.6488,
+          "durationMinutes": 90,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Kote Betta",
+          "lat": 12.5320,
+          "lng": 75.7050,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Pushpagiri Peak",
+          "lat": 12.6055,
+          "lng": 75.6662,
+          "durationMinutes": 300,
+          "category": "Trek"
+        },
+        {
+          "name": "Nalknad Palace",
+          "lat": 12.4028,
+          "lng": 75.6937,
+          "durationMinutes": 45,
+          "category": "Palace"
+        },
+        {
+          "name": "Somwarpet Lake Park",
+          "lat": 12.5983,
+          "lng": 75.8490,
+          "durationMinutes": 30,
+          "category": "Park"
+        },
+        {
+          "name": "Hattihole Falls",
+          "lat": 12.6050,
+          "lng": 75.7165,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        }
+      ]
+    },
+
+    "Kakkabe_Brahmagiri_Circuit": {
+      "description": "Peaks + temples + sacred origins of River Cauvery.",
+      "places": [
+        "Tadiandamol Peak",
+        "Nalknad Palace",
+        "Padi Igguthappa Temple",
+        "Talacauvery (Cauvery Origin)",
+        "Bhagamandala Triveni Sangama",
+        "Brahmagiri Peak"
+      ],
+      "places_detailed": [
+        {
+          "name": "Tadiandamol Peak",
+          "lat": 12.2139,
+          "lng": 75.6570,
+          "durationMinutes": 360,
+          "category": "Trek"
+        },
+        {
+          "name": "Nalknad Palace",
+          "lat": 12.4028,
+          "lng": 75.6937,
+          "durationMinutes": 45,
+          "category": "Palace"
+        },
+        {
+          "name": "Padi Igguthappa Temple",
+          "lat": 12.3994,
+          "lng": 75.7267,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Talacauvery (Cauvery Origin)",
+          "lat": 12.3984,
+          "lng": 75.6477,
+          "durationMinutes": 60,
+          "category": "Holy Site"
+        },
+        {
+          "name": "Bhagamandala Triveni Sangama",
+          "lat": 12.3998,
+          "lng": 75.6384,
+          "durationMinutes": 60,
+          "category": "Holy Confluence"
+        },
+        {
+          "name": "Brahmagiri Peak",
+          "lat": 12.4033,
+          "lng": 75.6515,
+          "durationMinutes": 300,
+          "category": "Trek"
+        }
+      ]
+    },
+
+    "Virajpet_Circuit": {
+      "description": "Temples, churches & heritage around Virajpet.",
+      "places": [
+        "Ayyappa Swamy Temple – Virajpet",
+        "Mylara Linga Temple",
+        "St. Anne’s Church",
+        "St. Michael’s Church",
+        "Virajpet Clock Tower"
+      ],
+      "places_detailed": [
+        {
+          "name": "Ayyappa Swamy Temple – Virajpet",
+          "lat": 12.1956,
+          "lng": 75.8068,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Mylara Linga Temple",
+          "lat": 12.1983,
+          "lng": 75.8091,
+          "durationMinutes": 30,
+          "category": "Temple"
+        },
+        {
+          "name": "St. Anne’s Church",
+          "lat": 12.1953,
+          "lng": 75.8081,
+          "durationMinutes": 45,
+          "category": "Church"
+        },
+        {
+          "name": "St. Michael’s Church",
+          "lat": 12.1971,
+          "lng": 75.8070,
+          "durationMinutes": 45,
+          "category": "Church"
+        },
+        {
+          "name": "Virajpet Clock Tower",
+          "lat": 12.1950,
+          "lng": 75.8088,
+          "durationMinutes": 20,
+          "category": "Landmark"
+        }
+      ]
+    },
+
+    "Wildlife_Adventure_Circuit": {
+      "description": "Perfect for adventure & wildlife lovers.",
+      "places": [
+        "Nagarhole National Park",
+        "Brahmagiri Wildlife Sanctuary",
+        "Pushpagiri Wildlife Sanctuary",
+        "Barapole River Rafting",
+        "Dubare River Rafting",
+        "Tadiandamol Trek",
+        "Pushpagiri Trek",
+        "Kote Betta Trek",
+        "Microlight Flying – Chelavara",
+        "Chelavara Falls"
+      ],
+      "places_detailed": [
+        {
+          "name": "Nagarhole National Park",
+          "lat": 12.1430,
+          "lng": 76.1260,
+          "durationMinutes": 240,
+          "category": "Wildlife Safari"
+        },
+        {
+          "name": "Brahmagiri Wildlife Sanctuary",
+          "lat": 12.3970,
+          "lng": 75.6530,
+          "durationMinutes": 240,
+          "category": "Sanctuary"
+        },
+        {
+          "name": "Pushpagiri Wildlife Sanctuary",
+          "lat": 12.5953,
+          "lng": 75.6723,
+          "durationMinutes": 240,
+          "category": "Sanctuary"
+        },
+        {
+          "name": "Barapole River Rafting",
+          "lat": 12.1820,
+          "lng": 75.7930,
+          "durationMinutes": 120,
+          "category": "River Rafting"
+        },
+        {
+          "name": "Dubare River Rafting",
+          "lat": 12.3220,
+          "lng": 75.9070,
+          "durationMinutes": 90,
+          "category": "River Rafting"
+        },
+        {
+          "name": "Tadiandamol Trek",
+          "lat": 12.2139,
+          "lng": 75.6570,
+          "durationMinutes": 360,
+          "category": "Trek"
+        },
+        {
+          "name": "Pushpagiri Trek",
+          "lat": 12.6055,
+          "lng": 75.6662,
+          "durationMinutes": 300,
+          "category": "Trek"
+        },
+        {
+          "name": "Kote Betta Trek",
+          "lat": 12.5320,
+          "lng": 75.7050,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Microlight Flying – Chelavara",
+          "lat": 12.2180,
+          "lng": 75.6761,
+          "durationMinutes": 60,
+          "category": "Adventure Flying"
+        },
+        {
+          "name": "Chelavara Falls",
+          "lat": 12.2174,
+          "lng": 75.6769,
+          "durationMinutes": 45,
+          "category": "Waterfall"
+        }
+      ]
+    },
+
+    "Hidden_Offbeat_Places": {
+      "description": "Secret & lesser-known gems of Coorg.",
+      "places": [
+        "Mandalpatti via Mukkodlu Route",
+        "Chelavara – Kanjirakolly Scenic Route",
+        "Kote Abbey Trek",
+        "Nandigundi Falls",
+        "Hattihole Bridge Spot (Photo Point)",
+        "Honey Valley Offbeat Trails"
+      ],
+      "places_detailed": [
+        {
+          "name": "Mandalpatti via Mukkodlu Route",
+          "lat": 12.54,
+          "lng": 75.68,
+          "durationMinutes": 120,
+          "category": "Offbeat Drive + Viewpoint"
+        },
+        {
+          "name": "Chelavara – Kanjirakolly Scenic Route",
+          "lat": 12.2270,
+          "lng": 75.6820,
+          "durationMinutes": 180,
+          "category": "Scenic Drive"
+        },
+        {
+          "name": "Kote Abbey Trek",
+          "lat": 12.4930,
+          "lng": 75.7210,
+          "durationMinutes": 240,
+          "category": "Trek"
+        },
+        {
+          "name": "Nandigundi Falls",
+          "lat": 12.3082,
+          "lng": 75.6834,
+          "durationMinutes": 60,
+          "category": "Waterfall"
+        },
+        {
+          "name": "Hattihole Bridge Spot (Photo Point)",
+          "lat": 12.6050,
+          "lng": 75.7165,
+          "durationMinutes": 20,
+          "category": "Photo Point"
+        },
+        {
+          "name": "Honey Valley Offbeat Trails",
+          "lat": 12.2551,
+          "lng": 75.6676,
+          "durationMinutes": 120,
+          "category": "Trek / Forest"
+        }
+      ]
+    }
+  }
+}

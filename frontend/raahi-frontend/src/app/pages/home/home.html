@@ -1,0 +1,107 @@
+<app-sidebar></app-sidebar>
+
+<main class="min-h-screen bg-background">
+  <!-- Full-Screen Hero Section with Background Image -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="assets/hero-travel.jpg" alt="Travel the World" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background z-10"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="container mx-auto px-6 relative z-20 text-center animate-slide-up">
+      <div class="space-y-8 max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-[0.3em] border border-white/20">
+          <span class="flex h-1.5 w-1.5 rounded-full bg-primary animate-pulse"></span>
+          Your Journey Starts Here
+        </div>
+        
+        <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold font-outfit leading-[0.9] tracking-tighter text-white italic drop-shadow-2xl">
+          Explore <br>
+          <span class="text-primary not-italic">Limitless</span>.
+        </h1>
+        
+        <p class="text-lg md:text-xl text-white/80 leading-relaxed max-w-xl mx-auto font-light drop-shadow-lg">
+          Experience travel tailored to your soul. From hidden local gems to sustainable adventures, Raahi crafts unforgettable memories just for you.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-5 pt-8 justify-center">
+          <button routerLink="/auth" class="btn-elegant px-12 py-4 text-sm font-bold uppercase tracking-widest bg-white text-black shadow-2xl hover:bg-primary hover:text-white transition-all duration-500">
+            Begin the Odyssey
+          </button>
+          <button routerLink="/discover" class="px-12 py-4 rounded-xl border border-white/30 text-white backdrop-blur-md font-bold text-sm uppercase tracking-widest hover:bg-white/10 transition-all duration-300">
+            View Destinations
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50"><path d="m7 13 5 5 5-5"/><path d="m7 6 5 5 5-5"/></svg>
+    </div>
+  </section>
+
+  <!-- Quick Info Section -->
+  <section class="py-24 bg-surface dark:bg-surface-dark/30">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="space-y-4 group">
+          <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold">Personalized Planning</h3>
+          <p class="text-muted-foreground font-light">Tailored itineraries that adapt to your unique preferences and travel style.</p>
+        </div>
+        <div class="space-y-4 group">
+          <div class="w-14 h-14 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center group-hover:bg-secondary group-hover:text-white transition-all duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          </div>
+          <h3 class="text-xl font-bold">Hidden Gems</h3>
+          <p class="text-muted-foreground font-light">Explore offbeat locations that regular tourist guides often miss.</p>
+        </div>
+        <div class="space-y-4 group">
+          <div class="w-14 h-14 rounded-2xl bg-accent/10 text-accent flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all duration-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold">Community Driven</h3>
+          <p class="text-muted-foreground font-light">Share your experiences and discover travel captures from our elite community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-20 border-t border-border">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="space-y-4 text-center md:text-left">
+          <h2 class="text-3xl font-outfit font-bold italic tracking-tighter text-primary">Raahi</h2>
+          <p class="text-muted-foreground max-w-sm font-light">Redefining exploration with elegance. Your ultimate travel partner.</p>
+        </div>
+        <div class="flex gap-10">
+          <ul class="space-y-3">
+            <li class="text-xs font-bold uppercase tracking-widest opacity-40">App</li>
+            <li><a routerLink="/" class="text-sm hover:text-primary transition-colors">Home</a></li>
+            <li><a routerLink="/discover" class="text-sm hover:text-primary transition-colors">Discover</a></li>
+          </ul>
+          <ul class="space-y-3">
+            <li class="text-xs font-bold uppercase tracking-widest opacity-40">Company</li>
+            <li><a href="#" class="text-sm hover:text-primary transition-colors">Privacy</a></li>
+            <li><a href="#" class="text-sm hover:text-primary transition-colors">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between gap-5 text-muted-foreground text-[10px] font-bold uppercase tracking-[0.3em]">
+        <span>© 2024 Raahi 2.0. All explorers welcome.</span>
+        <div class="flex gap-6">
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Dribbble</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</main>
+

@@ -1,0 +1,53 @@
+<app-sidebar></app-sidebar>
+
+<main class="min-h-screen bg-background pb-32">
+  <div class="max-w-2xl mx-auto px-6 py-12 md:py-20 animate-fade-in text-center">
+
+    <!-- HEADER -->
+    <header class="space-y-4 mb-16 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        Persona Calibration
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold font-outfit tracking-tighter text-foreground italic">
+        Edit <span class="text-primary">Persona</span>
+      </h1>
+    </header>
+
+    <div class="card-elegant p-10 md:p-14 text-left animate-slide-up">
+      
+      <div *ngIf="loading" class="flex flex-col items-center justify-center py-20 gap-4">
+        <div class="w-8 h-8 border-4 border-primary/20 border-t-primary rounded-full animate-spin"></div>
+        <p class="text-muted-foreground font-bold uppercase tracking-widest text-[10px]">Accessing data...</p>
+      </div>
+
+      <div *ngIf="!loading" class="space-y-8">
+        <div class="space-y-4">
+          <label class="block text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Identity Name</label>
+          <input 
+            [(ngModel)]="full_name"
+            class="w-full bg-muted/20 border border-border p-5 rounded-2xl text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-bold placeholder:text-muted-foreground/30"
+            type="text"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div class="flex flex-wrap gap-4 pt-4">
+           <button 
+            routerLink="/profile"
+            class="flex-1 px-8 py-4 rounded-xl border border-border font-bold text-[10px] uppercase tracking-widest text-muted-foreground hover:bg-muted transition-all"
+          >
+            Cancel
+          </button>
+          <button 
+            (click)="saveProfile()"
+            class="flex-[2] btn-elegant py-4 text-[10px] tracking-[0.2em]"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>

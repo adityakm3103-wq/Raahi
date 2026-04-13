@@ -1,0 +1,175 @@
+<app-sidebar></app-sidebar>
+
+<main class="min-h-screen bg-background pb-32">
+  <div class="max-w-6xl mx-auto px-6 py-12 md:py-20 animate-fade-in">
+
+    <!-- HEADER -->
+    <header class="text-center space-y-4 mb-20">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V9"/><path d="M18 21V5"/><path d="M6 21v-7"/></svg>
+        Your Anthology
+      </div>
+      <h1 class="text-5xl md:text-7xl font-bold font-outfit tracking-tighter text-foreground">
+        Saved <span class="text-primary italic">Adventures</span>
+      </h1>
+      <p class="text-muted-foreground text-lg font-light max-w-xl mx-auto">
+        A curated collection of your journeys through time and space.
+      </p>
+    </header>
+
+    <!-- Loading -->
+    <div *ngIf="loading" class="flex flex-col items-center justify-center py-32 gap-6">
+      <div class="w-10 h-10 border-4 border-primary/20 border-t-primary rounded-full animate-spin"></div>
+      <p class="text-muted-foreground font-bold uppercase tracking-widest text-xs animate-pulse">Reliving memories...</p>
+    </div>
+
+    <!-- No Trips -->
+    <div *ngIf="!loading && trips.length === 0" class="py-32 text-center space-y-8 bg-surface dark:bg-surface-dark/30 rounded-4xl border border-dashed border-border animate-fade-in">
+      <div class="w-24 h-24 mx-auto bg-muted/30 rounded-3xl flex items-center justify-center text-muted-foreground grayscale opacity-50">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      </div>
+      <div class="space-y-2">
+        <h2 class="text-2xl font-bold font-outfit tracking-tight italic">The horizon is clear.</h2>
+        <p class="text-muted-foreground font-light max-w-sm mx-auto">Your archive is currently empty. Start crafting a new legacy to see it here.</p>
+      </div>
+      <button routerLink="/plan" class="btn-elegant px-10 py-3.5">Plan New Voyage</button>
+    </div>
+
+    <!-- Trips Grid -->
+    <div *ngIf="!loading && trips.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div *ngFor="let t of trips; let i = index" class="card-elegant overflow-hidden flex flex-col group animate-slide-up" [style.animation-delay]="(i * 0.1) + 's'">
+        
+        <div class="aspect-video w-full bg-muted overflow-hidden relative">
+          <img [src]="'assets/' + t.plan.destination.toLowerCase() + '.jpg'" class="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" onerror="this.src='https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800'">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <div class="absolute bottom-4 left-6 flex items-center gap-2">
+             <div class="w-8 h-8 rounded-lg bg-primary/20 backdrop-blur-md text-white flex items-center justify-center text-xs font-bold">
+               {{ t.plan.itinerary?.length || 0 }}
+             </div>
+             <span class="text-[9px] font-bold uppercase tracking-widest text-white/80">Day Expedition</span>
+          </div>
+        </div>
+
+        <div class="p-8 space-y-6 flex-1 flex flex-col">
+          <div class="space-y-2">
+            <h2 class="text-2xl font-bold font-outfit tracking-tight text-foreground group-hover:text-primary transition-colors italic leading-tight">
+              {{ t.plan.tripName }}
+            </h2>
+            <div class="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+               <span class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> {{ t.plan.destination }}</span>
+               <span class="w-1 h-1 rounded-full bg-border"></span>
+               <span>{{ t.plan.startDate | date:'MMM d' }}</span>
+            </div>
+          </div>
+
+          <div class="flex gap-4 pt-6 border-t border-border mt-auto">
+            <button (click)="viewTrip(t)" class="flex-1 btn-elegant py-3 text-[10px] tracking-[0.2em]">Explore</button>
+            <button (click)="deleteTrip(t.id)" class="p-3 rounded-xl bg-muted/30 border border-border text-muted-foreground hover:bg-red-500/10 hover:text-red-500 hover:border-red-500/20 transition-all" title="Forget Journey">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- 🌟 Trip Details Modal -->
+<div *ngIf="showModal" class="fixed inset-0 z-[200] bg-black/60 backdrop-blur-xl flex justify-center items-center p-6 animate-fade-in" (click)="closeModal()">
+  <div class="bg-surface dark:bg-surface-dark w-full max-w-4xl p-10 md:p-16 rounded-4xl border border-border shadow-2xl relative max-h-[90vh] flex flex-col animate-slide-up" (click)="$event.stopPropagation()">
+    
+    <button (click)="closeModal()" class="absolute top-10 right-10 w-12 h-12 rounded-full bg-muted/30 border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+
+    <header class="text-center mb-12 space-y-4">
+      <h2 class="text-4xl md:text-6xl font-bold font-outfit tracking-tighter italic text-foreground">{{ selectedTrip?.tripName }}</h2>
+      <div class="flex justify-center items-center gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground">
+        <span class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> {{ selectedTrip?.destination }}</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-primary/20"></span>
+        <span class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> {{ selectedTrip?.startDate | date:'longDate' }}</span>
+      </div>
+    </header>
+
+    <div class="flex-1 overflow-y-auto pr-6 space-y-16 scrollbar-none">
+      <div *ngFor="let day of selectedTrip?.itinerary" class="space-y-8">
+        <h3 class="text-3xl font-bold font-outfit italic text-primary flex items-center gap-6">
+          Day {{ day.day }} <span class="h-px flex-1 bg-border"></span> <span class="text-xs font-bold uppercase tracking-widest text-muted-foreground">{{ day.title }}</span>
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div *ngFor="let act of day.activities" class="bg-muted/20 border border-border p-8 rounded-3xl space-y-6 hover:shadow-elegant transition-all group">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold text-primary uppercase tracking-widest bg-primary/5 px-2.5 py-1 rounded-md">{{ act.startTime }} — {{ act.endTime }}</span>
+                <span class="text-[9px] font-bold text-muted-foreground uppercase tracking-widest">{{ act.durationMinutes }} min duration</span>
+              </div>
+              <h4 class="text-2xl font-bold font-outfit text-foreground tracking-tight group-hover:text-primary transition-colors leading-tight">{{ act.name }}</h4>
+              <p class="text-muted-foreground text-sm italic font-light leading-relaxed">"{{ act.reason }}"</p>
+            </div>
+
+            <div class="flex flex-wrap gap-2 pt-6 border-t border-border">
+              <button (click)="likePlace(act.name)" class="px-4 py-2 bg-rose-500/5 text-rose-500 border border-rose-500/10 rounded-xl text-[9px] font-bold uppercase tracking-widest hover:bg-rose-500 hover:text-white transition-all">Delight</button>
+              <button (click)="skipPlace(act.name)" class="px-4 py-2 bg-muted/30 text-muted-foreground border border-border rounded-xl text-[9px] font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-all">Omit</button>
+              <button (click)="openDelayPopup(act)" class="p-2 bg-muted/30 border border-border rounded-xl text-muted-foreground hover:text-primary hover:border-primary/20 transition-all" title="Add Delay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </button>
+              <div class="relative flex-1 min-w-[100px]">
+                <select (change)="ratePlace(act.name, $any($event.target).value)" class="w-full appearance-none px-4 py-2 bg-muted/30 text-muted-foreground border border-border rounded-xl text-[9px] font-bold uppercase tracking-widest hover:bg-muted transition-all cursor-pointer outline-none">
+                  <option value="">Appraise</option>
+                  <option *ngFor="let r of [1,2,3,4,5]" [value]="r">{{ r }} Star</option>
+                </select>
+              </div>
+              <button (click)="openDirections(act.lat, act.lng, act.name)" class="px-4 py-2 bg-indigo-500/5 text-indigo-500 border border-indigo-500/10 rounded-xl text-[9px] font-bold uppercase tracking-widest hover:bg-indigo-500 hover:text-white transition-all">Map</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-10 mt-6 border-t border-border flex justify-center">
+      <button class="btn-elegant px-16 py-4 text-[10px] tracking-[0.3em]" (click)="closeModal()">Dismiss Anthology</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Delay Popup Modal (Shared Premium Style) -->
+<div *ngIf="showDelayPopup"
+     class="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z-[300] animate-fade-in">
+  <div class="bg-surface dark:bg-surface-dark p-10 rounded-4xl border border-border shadow-2xl w-full max-w-sm animate-slide-up space-y-8">
+    <div class="text-center space-y-2">
+      <h3 class="text-2xl font-bold font-outfit italic tracking-tighter">Adjust Schedule</h3>
+      <p class="text-xs text-muted-foreground uppercase tracking-widest">Extension for <span class="text-primary italic">{{ lastDelayTargetName }}</span></p>
+    </div>
+
+    <div class="space-y-6">
+      <div class="space-y-3">
+        <label class="text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Extension Value</label>
+        <input type="number" [(ngModel)]="delayInput"
+               placeholder="Amount" 
+               class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"/>
+      </div>
+
+      <div class="space-y-3 relative">
+        <label class="text-[10px] font-bold uppercase tracking-widest text-muted-foreground ml-1">Time Metric</label>
+        <select [(ngModel)]="delayUnit" 
+                class="w-full bg-muted/20 border border-border p-4 rounded-xl text-foreground appearance-none focus:outline-none focus:ring-2 focus:ring-primary/20 font-bold transition-all">
+          <option value="min">Minutes</option>
+          <option value="hr">Hours</option>
+        </select>
+        <div class="absolute right-4 top-[2.4rem] pointer-events-none text-muted-foreground">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex gap-4 pt-4">
+      <button (click)="showDelayPopup=false" 
+              class="flex-1 px-4 py-3.5 rounded-xl border border-border font-bold text-[10px] uppercase tracking-widest text-muted-foreground hover:bg-muted transition-all">Cancel</button>
+      <button (click)="applyDelay()" 
+              class="flex-1 btn-elegant py-3.5 text-[10px]">Confirm</button>
+    </div>
+  </div>
+</div>
+

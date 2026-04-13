@@ -1,0 +1,86 @@
+{
+  "circuits": {
+    "Mullayanagiri – Baba Budangiri Circuit": {
+      "description": "Highest peaks, stunning viewpoints, caves, and spiritual spots around the Chikkamagaluru–Datta Peeta range.",
+      "places": {
+        "Mullayanagiri Peak": "Highest peak of Karnataka, offering sunrise views and a short scenic climb.",
+        "Seethalayyanagiri": "Beautiful hill viewpoint with serene stops on the way to Mullayanagiri.",
+        "Baba Budangiri (Datta Peeta)": "Historic mountain shrine known for caves, viewpoints, and cool climate.",
+        "Manikyadhara Falls": "Seasonal hilltop waterfall famous for its spiritual significance and misty surroundings.",
+        "Jhari Falls (Buttermilk Falls)": "Private estate waterfall known for its foamy white flow and jeep ride adventure.",
+        "Honnammanahalla Viewpoint": "A peaceful roadside viewpoint offering wide valley panoramas.",
+        "Kavikal Gandi Viewpoint": "Windy open-view cliff point popular for photography.",
+        "Shakti Hill / Hills near Attigundi": "Quiet alternative viewpoints near Chikkamagaluru–Bababudangiri route.",
+        "Mullodi Hills": "Remote hilly region used as the starting point for Kudremukh trek."
+      }
+    },
+
+    "Kemmangundi – Z Point Circuit": {
+      "description": "A lush green hill station circuit known for waterfalls, gardens, and breathtaking sunset points.",
+      "places": {
+        "Kemmangundi Hill Station": "Classic misty hill station known for gardens, valley views, and cool weather.",
+        "Z Point Viewpoint": "Famous for sunrise and sunset hikes with dramatic ridge views.",
+        "Hebbe Falls": "Iconic multi-tier waterfall accessed via jeep trail through dense forest.",
+        "Shanti Falls": "Small peaceful waterfall located along the Kemmangundi trekking trail.",
+        "Kalhatti Falls": "Waterfall flowing over a temple, known for its unique setting.",
+        "Rock Garden (Kemmangundi)": "Man-made garden with stone pathways and valley viewpoints."
+      }
+    },
+
+    "Kudremukh – Kalasa – Horanadu Circuit": {
+      "description": "Greenest belt of Chikkamagaluru with grassland treks, forests, and major temples.",
+      "places": {
+        "Kudremukh National Park": "UNESCO-recognized mountain range famous for lush grassland landscapes.",
+        "Kudremukh Peak Trek": "One of India’s most scenic treks passing through rolling green hills.",
+        "Hanuman Gundi Falls": "Well-maintained stepped waterfall inside Kudremukh forest area.",
+        "Gangamoola Trek": "Origin point of three major rivers, surrounded by dense forest.",
+        "Kalasa Temple (Kalaseshwara)": "Ancient river-side temple known for architecture and natural setting.",
+        "Horanadu Annapoorneshwari Temple": "Famous pilgrimage temple known for hospitality and prasadam."
+      }
+    },
+
+    "Aldur – Mudigere – Devaramane Circuit": {
+      "description": "Offbeat mountain trails, coffee estates, rugged jeep routes, and lesser-known peaks.",
+      "places": {
+        "Ettina Bhuja Trek": "Popular ridge-style trek offering stunning 360° valley views.",
+        "Devaramane Grasslands": "Offbeat mountain meadows ideal for peaceful sunrise and sunset.",
+        "Ballarayanadurga Fort Trek": "Moderate trek to a ruined fort with panoramic rolling-hill views.",
+        "Hettur Hills": "Quiet hills surrounded by estates and forest patches.",
+        "Alekhan Falls": "Roadside seasonal waterfall near Kottigehara.",
+        "Bandekallu Falls": "Lesser-known waterfall hidden inside deep forest."
+      }
+    },
+
+    "Belur – Halebidu – Heritage Circuit": {
+      "description": "World-famous Hoysala temple architecture, sculpture work, and ancient history.",
+      "places": {
+        "Belur Chennakeshava Temple": "Masterpiece of Hoysala architecture known for detailed stone carvings.",
+        "Halebidu Hoysaleswara Temple": "Twin Shiva temple famous for its epic wall sculptures.",
+        "Belavadi Veeranarayana Temple": "Beautiful 13th-century Hoysala temple with ornate pillars.",
+        "Marle Chennakeshava Temple": "Ancient lesser-known temple showcasing early Hoysala style.",
+        "Hiremagalur Kodandarama Temple": "Temple after which Chikkamagaluru’s name originates."
+      }
+    },
+
+    "Coffee Museum – Lakes – Chikkamagaluru Town Circuit": {
+      "description": "Relaxed in-town attractions including lakes, coffee culture, and peaceful viewpoints.",
+      "places": {
+        "Coffee Museum": "Official Coffee Board museum showcasing the history and science of coffee.",
+        "Hirekolale Lake": "Stunning reflective lake ideal for photography during sunset.",
+        "Ayyanakere Lake": "Ancient lake surrounded by small hills and greenery.",
+        "Siri Coffee Statue Park": "Artistic themed park depicting local folk culture.",
+        "Bhadra Dam & Backwaters": "Scenic reservoir famous for boating and birdwatching."
+      }
+    },
+
+    "Wildlife & Forest Reserves Circuit": {
+      "description": "Tiger reserve, deep forest treks, and nature trails.",
+      "places": {
+        "Bhadra Wildlife Sanctuary": "Protected forest home to tigers, elephants, and rich biodiversity.",
+        "Muthodi Forest Reserve": "Peaceful forest zone offering jeep safaris and birdwatching.",
+        "Bhadra Tiger Reserve Safari (Lakkavalli Gate)": "Official tiger safari route known for wildlife sightings.",
+        "Kallathigiri Falls Trek": "Forest waterfall trek combining nature and adventure."
+      }
+    }
+  }
+}
