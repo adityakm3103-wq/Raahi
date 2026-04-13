@@ -1,1 +1,4 @@
-{ "root": "frontend/raahi-frontend" } 
+{
+  "type": "capacitor",
+  "root": "frontend/raahi-frontend"
+}
