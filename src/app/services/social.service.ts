@@ -37,6 +37,8 @@ export class SocialService {
       destination.toLowerCase().includes('malnad')
     ) {
       fileName = 'chikkamagaluru_places.json';
+    } else if (destination.toLowerCase().includes('hampi') || destination.toLowerCase().includes('vijayanagara')) {
+      fileName = 'hampi_places.json';
     } else {
       fileName = 'bangalore_places.json';
     }
@@ -60,6 +62,8 @@ export class SocialService {
       destination.toLowerCase().includes('chikm')
     ) {
       fileName = 'chikkamagaluru_explanations.json';
+    } else if (destination.toLowerCase().includes('hampi') || destination.toLowerCase().includes('vijayanagara')) {
+      fileName = 'hampi_explanations.json';
     } else {
       fileName = 'bangalore_explanations.json';
     }
@@ -86,6 +90,33 @@ export class SocialService {
   }
 
   // ---------------------------------------------------------
+  // ⭐ Extract implicit vibes from user's gallery captions & tags
+  // ---------------------------------------------------------
+  extractVibesFromGallery(gallery: any[]): string[] {
+    const extractedVibes = new Set<string>();
+    const allText = gallery.map(g => `${g.caption || ''} ${(g.hashtags || []).join(' ')}`).join(' ').toLowerCase();
+
+    // Check which predefined vibes exist in the user's gallery text
+    for (const [vibe, keywords] of Object.entries(this.vibeToPlaceKeywords)) {
+      if (keywords.some(kw => allText.includes(kw.toLowerCase()))) {
+        extractedVibes.add(vibe);
+      }
+    }
+    
+    // Also add standalone words from hashtags as potential vibes
+    gallery.forEach(post => {
+      if (post.hashtags && Array.isArray(post.hashtags)) {
+        post.hashtags.forEach((tag: string) => {
+          const cleanTag = tag.replace('#', '').trim().toLowerCase();
+          if (cleanTag.length > 2) extractedVibes.add(cleanTag);
+        });
+      }
+    });
+
+    return Array.from(extractedVibes);
+  }
+
+  // ---------------------------------------------------------
   // ⭐ MAIN: Social Suggestions
   // ---------------------------------------------------------
   async getSocialSuggestions(userId: string, destination: string) {
@@ -96,17 +127,22 @@ export class SocialService {
       .eq('user_id', userId)
       .single();
 
-    if (error || !profile) return [];
-    const vibeTags: string[] = profile.vibe_tags || [];
-    if (vibeTags.length === 0) return [];
+    let vibeTags: string[] = (profile && profile.vibe_tags) ? profile.vibe_tags : [];
 
-    // 2️⃣ Load gallery → extract visited tags (hashtags)
+    // 2️⃣ Load gallery → extract visited tags and implicit vibes
     const { data: gallery } = await supabase
       .from('user_gallery')
       .select('*')
       .eq('user_id', userId);
 
-    const visited = this.extractVisitedPlacesFromGallery(gallery || []);
+    const galleryData = gallery || [];
+    const visited = this.extractVisitedPlacesFromGallery(galleryData);
+    const galleryVibes = this.extractVibesFromGallery(galleryData);
+
+    // Combine explicit profile vibes with implicit gallery vibes
+    vibeTags = [...new Set([...vibeTags, ...galleryVibes])];
+
+    if (vibeTags.length === 0) return [];
 
     // 3️⃣ Load places.json → collect all places
     const placesJson = await this.loadPlacesJson(destination);

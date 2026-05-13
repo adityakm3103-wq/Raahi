@@ -21,9 +21,24 @@ export class Discover implements OnInit {
   selectedPlace: any = null;
   
   // Data arrays
-  cities = ['Coorg', 'Chikkamagaluru', 'Bengaluru'];
+  cities = ['Coorg', 'Chikkamagaluru', 'Bengaluru', 'Hampi'];
   destinations: any[] = [];
   communityPhotos: any[] = [];
+  searchQuery: string = '';
+
+  get filteredDestinations() {
+    if (!this.searchQuery) return this.destinations;
+    const q = this.searchQuery.toLowerCase();
+    return this.destinations.filter(p => 
+      (p.name && p.name.toLowerCase().includes(q)) || 
+      (p.category && p.category.toLowerCase().includes(q)) || 
+      (p.description && p.description.toLowerCase().includes(q))
+    );
+  }
+
+  onSearch(event: any) {
+    this.searchQuery = event.target.value;
+  }
 
   // Upload state
   uploading = false;
@@ -56,6 +71,7 @@ export class Discover implements OnInit {
     } else if (this.viewMode === 'places') {
       this.viewMode = 'cities';
       this.destinations = [];
+      this.searchQuery = '';
     }
   }
 
@@ -81,7 +97,7 @@ export class Discover implements OnInit {
     try {
       const tag = `#place:${placeName.replace(/\s+/g, '')}`;
       const { data, error } = await supabase
-        .from('user_gallery')
+        .from('community_gallery')
         .select('*')
         .contains('hashtags', [tag])
         .order('created_at', { ascending: false });
@@ -115,14 +131,14 @@ export class Discover implements OnInit {
 
       // 1. Upload to storage
       const { error: uploadError } = await supabase.storage
-        .from('user_photos')
+        .from('community_photos')
         .upload(filePath, file);
 
       if (uploadError) throw uploadError;
 
       // 2. Get public URL
       const { data: publicUrlData } = supabase.storage
-        .from('user_photos')
+        .from('community_photos')
         .getPublicUrl(filePath);
 
       const photo_url = publicUrlData.publicUrl;
@@ -130,7 +146,7 @@ export class Discover implements OnInit {
       // 3. Insert metadata with #place tag
       const placeTag = `#place:${this.selectedPlace.name.replace(/\s+/g, '')}`;
       const { data: inserted, error: insertError } = await supabase
-        .from('user_gallery')
+        .from('community_gallery')
         .insert({
           user_id: user.id,
           photo_url,
@@ -160,6 +176,7 @@ export class Discover implements OnInit {
     Coorg: 'coorg',
     Chikkamagaluru: 'chikkamagaluru',
     Bengaluru: 'bangalore',
+    Hampi: 'hampi',
   };
 
   getCityImage(city: string) {
@@ -167,6 +184,7 @@ export class Discover implements OnInit {
       case 'Coorg': return 'assets/coorg.jpg';
       case 'Chikkamagaluru': return 'assets/chikkamagaluru.jpg';
       case 'Bengaluru': return 'assets/bengaluru.jpg';
+      case 'Hampi': return 'assets/hampi.jpg';
       default: return 'assets/default.jpg';
     }
   }

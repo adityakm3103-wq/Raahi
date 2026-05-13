@@ -139,6 +139,7 @@ export class PlanTrip {
   coorg: ['coorg', 'kodagu', 'madikeri'],
   chikkamagaluru: ['chikkamagaluru', 'chikmagalur', 'chikk', 'chikm'],
   bangalore: ['bangalore', 'bengaluru'],
+  hampi: ['hampi', 'vijayanagara'],
 };
 
 private resolveSlug(dest: string): string {
@@ -417,7 +418,7 @@ if (hiddenCircuit?.places_detailed) {
       const startMs = new Date(startDate).getTime();
       const endMs = new Date(endDate).getTime();
       const diffMs = endMs - startMs;
-      const tripDays = Math.max(
+      const tripDays = isNaN(diffMs) ? 3 : Math.max(
         1,
         Math.floor(diffMs / (1000 * 60 * 60 * 24)) + 1
       );
@@ -427,7 +428,8 @@ if (hiddenCircuit?.places_detailed) {
         destination,
         startDate,
         endDate,
-        prefs
+        prefs,
+        8 // perDayCapacity: fetch enough places to fill 8-10 hour days
       );
 
       const explanationMap: Record<string, string> = {};
@@ -465,71 +467,22 @@ for (const day of result.days) {
 
     if (!foundDetail) continue;
 
+    const isGem = hiddenGemSet.has(place.name);
+    let reasonText = explanationMap[place.name] || 'A recommended place to explore.';
+    if (isGem && !reasonText.startsWith('Hidden Gem')) {
+      reasonText = 'Hidden Gem: ' + reasonText;
+    }
+
     this.baseSequence.push({
       name: place.name,
-      reason:
-        explanationMap[place.name] ||
-        'A recommended place to explore.',
+      reason: reasonText,
       detail: foundDetail,
-      isHiddenGem: hiddenGemSet.has(place.name)
+      isHiddenGem: isGem
     });
   }
 }
 
 
-/* ---------------------------------------------------
-   🔹 Ensure minimum 2 hidden gems in itinerary
---------------------------------------------------- */
-/* ---------------------------------------------------
-   🔹 Ensure hidden gems are DISTRIBUTED in itinerary
---------------------------------------------------- */
-
-/* ---------------------------------------------------
-   🔹 Ensure 1 hidden gem per day (max)
---------------------------------------------------- */
-
-const totalDays = tripDays; // already computed earlier
-const hiddenInBase = this.baseSequence.filter(p => p.isHiddenGem);
-
-
-
-if (hiddenCircuit?.places_detailed) {
-
-  const alreadyAdded = new Set(this.baseSequence.map(p => p.name));
-
-  // Maximum hidden gems allowed = number of days
-  const maxHiddenAllowed = totalDays;
-
-  const needed = Math.max(
-    0,
-    maxHiddenAllowed - hiddenInBase.length
-  );
-
-  if (needed > 0) {
-
-    const candidates = hiddenCircuit.places_detailed
-      .filter((p: any) => !alreadyAdded.has(p.name))
-      .slice(0, needed);
-
-    candidates.forEach((p: any, idx: number) => {
-
-      // Spread hidden gems across the itinerary
-      const insertAt = Math.min(
-        Math.floor(
-          (idx + 1) * this.baseSequence.length / totalDays
-        ),
-        this.baseSequence.length
-      );
-
-      this.baseSequence.splice(insertAt, 0, {
-        name: p.name,
-        reason: 'A lesser-known offbeat place worth exploring.',
-        detail: p,
-        isHiddenGem: true
-      });
-    });
-  }
-}
 
 
 
@@ -543,7 +496,41 @@ if (hiddenCircuit?.places_detailed) {
         });
       }
 
-      const built = this.buildItineraryWithDelay();
+      let built = this.buildItineraryWithDelay();
+
+      // 🔹 Strictly enforce at least 1 hidden gem per day
+      if (hiddenCircuit?.places_detailed) {
+        const availableHiddenGems = hiddenCircuit.places_detailed.filter(
+          (p: any) => !new Set(this.baseSequence.map(b => b.name)).has(p.name)
+        );
+
+        let maxIterations = tripDays;
+        while (maxIterations > 0 && availableHiddenGems.length > 0) {
+          const dayWithoutGem = built.plan.slice(0, tripDays).find(
+            (day: any) => !day.activities.some((act: any) => act.isHiddenGem)
+          );
+
+          if (!dayWithoutGem) break; // All days have at least one hidden gem
+
+          let insertIndex = this.baseSequence.length;
+          if (dayWithoutGem.activities.length > 0) {
+            const mid = Math.floor(dayWithoutGem.activities.length / 2);
+            insertIndex = dayWithoutGem.activities[mid].baseIndex;
+          }
+
+          const p = availableHiddenGems.shift();
+          this.baseSequence.splice(insertIndex, 0, {
+             name: p.name,
+             reason: 'Hidden Gem: ' + (p.reason || 'A lesser-known offbeat place worth exploring.'),
+             detail: p,
+             isHiddenGem: true
+          });
+
+          // Rebuild grouping since baseSequence changed
+          built = this.buildItineraryWithDelay();
+          maxIterations--;
+        }
+      }
 
       // ✅ Limit itinerary days to tripDays based on dates
       const maxDays = tripDays;

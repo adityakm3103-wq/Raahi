@@ -1,0 +1,669 @@
+{
+  "circuits": {
+    "Hampi_Core_Heritage_Circuit": {
+      "description": "Explore Hampi Core Heritage Circuit",
+      "places": [
+        "Virupaksha Temple",
+        "Hampi Bazaar",
+        "Hemakuta Hill Temple Complex",
+        "Sasivekalu Ganesha",
+        "Kadalekalu Ganesha",
+        "Krishna Temple",
+        "Lakshmi Narasimha Statue",
+        "Badavilinga Temple",
+        "Underground Shiva Temple",
+        "Queen\u2019s Bath",
+        "Lotus Mahal",
+        "Elephant Stables",
+        "Zenana Enclosure",
+        "Watch Towers",
+        "Hazara Rama Temple",
+        "Mahanavami Dibba",
+        "Stepped Tank",
+        "Royal Enclosure",
+        "King\u2019s Audience Hall",
+        "Pushkarani"
+      ],
+      "places_detailed": [
+        {
+          "name": "Virupaksha Temple",
+          "lat": 15.3432,
+          "lng": 76.4464,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Hampi Bazaar",
+          "lat": 15.3597,
+          "lng": 76.446,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Hemakuta Hill Temple Complex",
+          "lat": 15.309,
+          "lng": 76.4986,
+          "durationMinutes": 60,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Sasivekalu Ganesha",
+          "lat": 15.3636,
+          "lng": 76.4271,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Kadalekalu Ganesha",
+          "lat": 15.3257,
+          "lng": 76.4628,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Krishna Temple",
+          "lat": 15.3676,
+          "lng": 76.4712,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Lakshmi Narasimha Statue",
+          "lat": 15.3054,
+          "lng": 76.432,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Badavilinga Temple",
+          "lat": 15.3014,
+          "lng": 76.426,
+          "durationMinutes": 90,
+          "category": "Temple"
+        },
+        {
+          "name": "Underground Shiva Temple",
+          "lat": 15.3197,
+          "lng": 76.4863,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Queen\u2019s Bath",
+          "lat": 15.3108,
+          "lng": 76.4851,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Lotus Mahal",
+          "lat": 15.3042,
+          "lng": 76.4853,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Elephant Stables",
+          "lat": 15.3714,
+          "lng": 76.4517,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Zenana Enclosure",
+          "lat": 15.3505,
+          "lng": 76.4817,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Watch Towers",
+          "lat": 15.3479,
+          "lng": 76.4915,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Hazara Rama Temple",
+          "lat": 15.3538,
+          "lng": 76.4399,
+          "durationMinutes": 120,
+          "category": "Temple"
+        },
+        {
+          "name": "Mahanavami Dibba",
+          "lat": 15.3475,
+          "lng": 76.4694,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Stepped Tank",
+          "lat": 15.3247,
+          "lng": 76.4635,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Royal Enclosure",
+          "lat": 15.3392,
+          "lng": 76.4279,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "King\u2019s Audience Hall",
+          "lat": 15.3567,
+          "lng": 76.466,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Pushkarani",
+          "lat": 15.3399,
+          "lng": 76.47,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        }
+      ]
+    },
+    "Sacred_Hampi_Circuit": {
+      "description": "Explore Sacred Hampi Circuit",
+      "places": [
+        "Achyutaraya Temple",
+        "Courtesan\u2019s Street",
+        "Kodanda Rama Temple",
+        "Yantrodharaka Hanuman Temple",
+        "Sugriva\u2019s Cave",
+        "Chakratirtha",
+        "Monolithic Bull (Nandi)",
+        "Raghunatha Temple",
+        "Tungabhadra River Ghats",
+        "Purandaradasa Mantapa",
+        "Vittala Temple",
+        "Stone Chariot",
+        "Musical Pillars",
+        "King\u2019s Balance"
+      ],
+      "places_detailed": [
+        {
+          "name": "Achyutaraya Temple",
+          "lat": 15.3063,
+          "lng": 76.4644,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Courtesan\u2019s Street",
+          "lat": 15.3582,
+          "lng": 76.4328,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Kodanda Rama Temple",
+          "lat": 15.3426,
+          "lng": 76.4984,
+          "durationMinutes": 45,
+          "category": "Temple"
+        },
+        {
+          "name": "Yantrodharaka Hanuman Temple",
+          "lat": 15.3665,
+          "lng": 76.4761,
+          "durationMinutes": 120,
+          "category": "Temple"
+        },
+        {
+          "name": "Sugriva\u2019s Cave",
+          "lat": 15.3618,
+          "lng": 76.4228,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Chakratirtha",
+          "lat": 15.3471,
+          "lng": 76.498,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Monolithic Bull (Nandi)",
+          "lat": 15.3676,
+          "lng": 76.4756,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Raghunatha Temple",
+          "lat": 15.3471,
+          "lng": 76.4439,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Tungabhadra River Ghats",
+          "lat": 15.3719,
+          "lng": 76.4329,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Purandaradasa Mantapa",
+          "lat": 15.3299,
+          "lng": 76.4854,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Vittala Temple",
+          "lat": 15.3045,
+          "lng": 76.4321,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Stone Chariot",
+          "lat": 15.3464,
+          "lng": 76.4522,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Musical Pillars",
+          "lat": 15.3448,
+          "lng": 76.4359,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "King\u2019s Balance",
+          "lat": 15.3383,
+          "lng": 76.4973,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        }
+      ]
+    },
+    "Hampi_Sunrise_Sunset_Circuit": {
+      "description": "Explore Hampi Sunrise Sunset Circuit",
+      "places": [
+        "Matanga Hill",
+        "Hemakuta Hill Sunset Point",
+        "Anjanadri Hill",
+        "Hippie Island Sunset Point",
+        "Malyavanta Raghunatha Hill",
+        "Sanapur Lake Cliff",
+        "Hampi Boulder Fields",
+        "Tungabhadra Riverside Trails"
+      ],
+      "places_detailed": [
+        {
+          "name": "Matanga Hill",
+          "lat": 15.3037,
+          "lng": 76.4362,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Hemakuta Hill Sunset Point",
+          "lat": 15.3505,
+          "lng": 76.4819,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Anjanadri Hill",
+          "lat": 15.3624,
+          "lng": 76.4278,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Hippie Island Sunset Point",
+          "lat": 15.3648,
+          "lng": 76.4453,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Malyavanta Raghunatha Hill",
+          "lat": 15.3686,
+          "lng": 76.4282,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Sanapur Lake Cliff",
+          "lat": 15.3398,
+          "lng": 76.4864,
+          "durationMinutes": 120,
+          "category": "Nature"
+        },
+        {
+          "name": "Hampi Boulder Fields",
+          "lat": 15.318,
+          "lng": 76.4837,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Tungabhadra Riverside Trails",
+          "lat": 15.3452,
+          "lng": 76.4443,
+          "durationMinutes": 120,
+          "category": "Nature"
+        }
+      ]
+    },
+    "Adventure_And_Nature_Circuit": {
+      "description": "Explore Adventure And Nature Circuit",
+      "places": [
+        "Sanapur Lake",
+        "Coracle Ride Point",
+        "Anegundi Village",
+        "Daroji Bear Sanctuary",
+        "Tungabhadra Dam",
+        "Tungabhadra Reservoir Gardens",
+        "Mango Tree Restaurant Riverside Area",
+        "Hampi Rock Climbing Zones",
+        "Rice Paddy Trails",
+        "Village Cycling Routes"
+      ],
+      "places_detailed": [
+        {
+          "name": "Sanapur Lake",
+          "lat": 15.3745,
+          "lng": 76.4908,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Coracle Ride Point",
+          "lat": 15.3214,
+          "lng": 76.4578,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Anegundi Village",
+          "lat": 15.3268,
+          "lng": 76.489,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Daroji Bear Sanctuary",
+          "lat": 15.3474,
+          "lng": 76.4783,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Tungabhadra Dam",
+          "lat": 15.2955,
+          "lng": 76.4779,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Tungabhadra Reservoir Gardens",
+          "lat": 15.3015,
+          "lng": 76.4608,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Mango Tree Restaurant Riverside Area",
+          "lat": 15.3617,
+          "lng": 76.4379,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Hampi Rock Climbing Zones",
+          "lat": 15.3668,
+          "lng": 76.4264,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Rice Paddy Trails",
+          "lat": 15.3613,
+          "lng": 76.4771,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Village Cycling Routes",
+          "lat": 15.3066,
+          "lng": 76.4715,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        }
+      ]
+    },
+    "Anegundi_And_Surroundings_Circuit": {
+      "description": "Explore Anegundi And Surroundings Circuit",
+      "places": [
+        "Pampa Sarovar",
+        "Anjaneya Temple",
+        "Gagan Mahal",
+        "Anegundi Fort Area",
+        "Nava Brindavana",
+        "Chintamani Temple",
+        "Kishkinda Region",
+        "Rishyamukha Hill"
+      ],
+      "places_detailed": [
+        {
+          "name": "Pampa Sarovar",
+          "lat": 15.3555,
+          "lng": 76.4428,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Anjaneya Temple",
+          "lat": 15.299,
+          "lng": 76.4335,
+          "durationMinutes": 60,
+          "category": "Temple"
+        },
+        {
+          "name": "Gagan Mahal",
+          "lat": 15.3559,
+          "lng": 76.484,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Anegundi Fort Area",
+          "lat": 15.3616,
+          "lng": 76.4237,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Nava Brindavana",
+          "lat": 15.3532,
+          "lng": 76.4563,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Chintamani Temple",
+          "lat": 15.351,
+          "lng": 76.4755,
+          "durationMinutes": 90,
+          "category": "Temple"
+        },
+        {
+          "name": "Kishkinda Region",
+          "lat": 15.3387,
+          "lng": 76.4299,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "Rishyamukha Hill",
+          "lat": 15.297,
+          "lng": 76.4943,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        }
+      ]
+    },
+    "Hidden_Offbeat_Places": {
+      "description": "Explore Hidden Offbeat Places",
+      "places": [
+        "Hidden Coracle Crossing Point",
+        "Secret Boulder Viewpoint",
+        "Old Aqueduct Ruins",
+        "Hampi Riverside Banana Plantations",
+        "Unnamed Cave Temples",
+        "Offbeat Sunset Boulder",
+        "Hidden Mantapa Ruins",
+        "Anegundi Backwater Trails",
+        "Sanapur Hidden Cliff",
+        "Village Temple Ruins"
+      ],
+      "places_detailed": [
+        {
+          "name": "Hidden Coracle Crossing Point",
+          "lat": 15.3461,
+          "lng": 76.4386,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Secret Boulder Viewpoint",
+          "lat": 15.3684,
+          "lng": 76.4268,
+          "durationMinutes": 90,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Old Aqueduct Ruins",
+          "lat": 15.3644,
+          "lng": 76.4733,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Hampi Riverside Banana Plantations",
+          "lat": 15.3037,
+          "lng": 76.4471,
+          "durationMinutes": 45,
+          "category": "Nature"
+        },
+        {
+          "name": "Unnamed Cave Temples",
+          "lat": 15.341,
+          "lng": 76.4601,
+          "durationMinutes": 120,
+          "category": "Temple"
+        },
+        {
+          "name": "Offbeat Sunset Boulder",
+          "lat": 15.3129,
+          "lng": 76.4718,
+          "durationMinutes": 45,
+          "category": "Viewpoint"
+        },
+        {
+          "name": "Hidden Mantapa Ruins",
+          "lat": 15.3409,
+          "lng": 76.4904,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Anegundi Backwater Trails",
+          "lat": 15.3074,
+          "lng": 76.4283,
+          "durationMinutes": 60,
+          "category": "Nature"
+        },
+        {
+          "name": "Sanapur Hidden Cliff",
+          "lat": 15.3018,
+          "lng": 76.4871,
+          "durationMinutes": 60,
+          "category": "Heritage"
+        },
+        {
+          "name": "Village Temple Ruins",
+          "lat": 15.3259,
+          "lng": 76.4367,
+          "durationMinutes": 90,
+          "category": "Temple"
+        }
+      ]
+    },
+    "Hospet_And_Nearby_Circuit": {
+      "description": "Explore Hospet And Nearby Circuit",
+      "places": [
+        "Hospet City Center",
+        "TB Dam Musical Fountain",
+        "Anantasayana Temple",
+        "Chitradurga Fort (Nearby)",
+        "Kamalapur Museum",
+        "Archaeological Museum Hampi",
+        "Tungabhadra Backwaters"
+      ],
+      "places_detailed": [
+        {
+          "name": "Hospet City Center",
+          "lat": 15.3534,
+          "lng": 76.4501,
+          "durationMinutes": 120,
+          "category": "Heritage"
+        },
+        {
+          "name": "TB Dam Musical Fountain",
+          "lat": 15.3226,
+          "lng": 76.4284,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Anantasayana Temple",
+          "lat": 15.3737,
+          "lng": 76.4878,
+          "durationMinutes": 120,
+          "category": "Temple"
+        },
+        {
+          "name": "Chitradurga Fort (Nearby)",
+          "lat": 15.3282,
+          "lng": 76.4512,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Kamalapur Museum",
+          "lat": 15.314,
+          "lng": 76.4868,
+          "durationMinutes": 45,
+          "category": "Heritage"
+        },
+        {
+          "name": "Archaeological Museum Hampi",
+          "lat": 15.3483,
+          "lng": 76.4719,
+          "durationMinutes": 90,
+          "category": "Heritage"
+        },
+        {
+          "name": "Tungabhadra Backwaters",
+          "lat": 15.3715,
+          "lng": 76.4886,
+          "durationMinutes": 120,
+          "category": "Nature"
+        }
+      ]
+    }
+  }
+}

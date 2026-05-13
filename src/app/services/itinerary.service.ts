@@ -33,6 +33,7 @@ export class ItineraryService {
   coorg: ['coorg', 'kodagu', 'madikeri'],
   chikkamagaluru: ['chikkamagaluru', 'chikmagalur'],
   bangalore: ['bengaluru', 'bangalore'],
+  hampi: ['hampi', 'vijayanagara'],
 };
 
 private resolveSlug(dest: string): string {

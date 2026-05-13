@@ -67,4 +67,21 @@ export class Auth {
       this.loading = false;
     }
   }
+
+  async handleOAuth(provider: 'google' | 'github') {
+    try {
+      this.loading = true;
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: provider,
+        options: {
+          redirectTo: `${window.location.origin}/preferences`,
+        },
+      });
+      if (error) throw error;
+    } catch (err: any) {
+      console.error('OAuth error:', err);
+      alert('Error: ' + err.message);
+      this.loading = false;
+    }
+  }
 }

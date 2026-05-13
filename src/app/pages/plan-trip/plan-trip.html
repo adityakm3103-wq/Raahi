@@ -144,7 +144,7 @@
                       <span class="text-[10px] font-bold text-primary uppercase tracking-widest bg-primary/5 px-2.5 py-1 rounded-md">
                         {{ act.startTime }} — {{ act.endTime }}
                       </span>
-                      <span *ngIf="act.isHiddenGem" class="text-[9px] font-bold text-secondary uppercase tracking-[0.2em] flex items-center gap-1.5">
+                      <span *ngIf="act.isHiddenGem" class="text-[9px] font-bold uppercase tracking-[0.2em] flex items-center gap-1.5 bg-amber-500 text-black px-2.5 py-1 rounded-md shadow-sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
                         Hidden Gem
                       </span>
@@ -234,6 +234,17 @@
           <div class="space-y-3">
             <div *ngFor="let p of similarTraveller" class="text-xs text-foreground font-light flex items-center gap-2">
               <div class="w-1.5 h-1.5 rounded-full bg-secondary"></div> {{ p }}
+            </div>
+          </div>
+        </div>
+
+        <!-- 🔮 Profile Based Recs -->
+        <div *ngIf="socialRecommendations && socialRecommendations.length > 0">
+          <div class="text-[9px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-4">Curated For You</div>
+          <div class="space-y-4">
+            <div *ngFor="let rec of socialRecommendations" class="space-y-1">
+              <div class="text-sm font-bold text-foreground leading-tight">{{ rec.place }}</div>
+              <div class="text-[10px] text-primary italic font-medium">Based on your gallery vibes</div>
             </div>
           </div>
         </div>

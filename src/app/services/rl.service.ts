@@ -33,6 +33,8 @@ export class RLService {
       return "assets/places/coorg_places.json";
     if (d.includes("chikk") || d.includes("chikmagalur"))
       return "assets/places/chikkamagaluru_places.json";
+    if (d.includes("hampi") || d.includes("vijayanagara"))
+      return "assets/places/hampi_places.json";
     return "assets/places/bangalore_places.json";
   }
 

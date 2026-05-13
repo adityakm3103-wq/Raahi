@@ -54,9 +54,30 @@
         <p class="text-muted-foreground font-bold uppercase tracking-widest text-xs animate-pulse">Surveying the land...</p>
       </div>
 
+      <!-- Search Bar -->
+      <div *ngIf="!loading && destinations.length > 0" class="mb-10 animate-fade-in">
+        <div class="relative max-w-xl mx-auto group">
+          <div class="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none text-muted-foreground group-focus-within:text-primary transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
+          <input 
+            type="text" 
+            (input)="onSearch($event)" 
+            [value]="searchQuery"
+            placeholder="Search landmarks, hidden realms..." 
+            class="w-full bg-card dark:bg-surface-dark border border-border hover:border-primary/30 rounded-full py-4 pl-14 pr-6 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all shadow-sm font-medium"
+          >
+        </div>
+        
+        <!-- Empty State for Search -->
+        <div *ngIf="filteredDestinations.length === 0" class="py-16 text-center animate-fade-in">
+          <p class="text-muted-foreground font-bold uppercase tracking-widest text-sm">No realms discovered matching your query.</p>
+        </div>
+      </div>
+
       <div *ngIf="!loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div 
-          *ngFor="let place of destinations" 
+          *ngFor="let place of filteredDestinations" 
           (click)="selectPlace(place)"
           class="bg-surface dark:bg-surface-dark p-8 rounded-4xl border border-border group cursor-pointer hover:shadow-elegant-hover transition-all duration-300 flex flex-col h-full"
         >
